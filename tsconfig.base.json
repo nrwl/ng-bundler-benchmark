@@ -10,2470 +10,829 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": [
-      "es2020",
-      "dom"
-    ],
+    "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ng-bundler-benchmark/libentry": [
-        "libs/libentry/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/libentry2": [
-        "libs/libentry2/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/libentry3": [
-        "libs/libentry3/src/index.ts"
-      ],
-
-      "@ng-bundler-benchmark/libentry4": [
-        "libs/libentry4/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib0": [
-        "libs/lib0/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1000": [
-        "libs/lib1000/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1": [
-        "libs/lib1/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1001": [
-        "libs/lib1001/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib2": [
-        "libs/lib2/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1002": [
-        "libs/lib1002/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib3": [
-        "libs/lib3/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1003": [
-        "libs/lib1003/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib4": [
-        "libs/lib4/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1004": [
-        "libs/lib1004/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib5": [
-        "libs/lib5/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1005": [
-        "libs/lib1005/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib6": [
-        "libs/lib6/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1006": [
-        "libs/lib1006/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib7": [
-        "libs/lib7/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1007": [
-        "libs/lib1007/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib8": [
-        "libs/lib8/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1008": [
-        "libs/lib1008/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib9": [
-        "libs/lib9/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1009": [
-        "libs/lib1009/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib10": [
-        "libs/lib10/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1010": [
-        "libs/lib1010/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib11": [
-        "libs/lib11/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1011": [
-        "libs/lib1011/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib12": [
-        "libs/lib12/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1012": [
-        "libs/lib1012/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib13": [
-        "libs/lib13/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1013": [
-        "libs/lib1013/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib14": [
-        "libs/lib14/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1014": [
-        "libs/lib1014/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib15": [
-        "libs/lib15/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1015": [
-        "libs/lib1015/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib16": [
-        "libs/lib16/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1016": [
-        "libs/lib1016/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib17": [
-        "libs/lib17/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1017": [
-        "libs/lib1017/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib18": [
-        "libs/lib18/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1018": [
-        "libs/lib1018/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib19": [
-        "libs/lib19/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1019": [
-        "libs/lib1019/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib20": [
-        "libs/lib20/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1020": [
-        "libs/lib1020/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib21": [
-        "libs/lib21/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1021": [
-        "libs/lib1021/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib22": [
-        "libs/lib22/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1022": [
-        "libs/lib1022/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib23": [
-        "libs/lib23/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1023": [
-        "libs/lib1023/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib24": [
-        "libs/lib24/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1024": [
-        "libs/lib1024/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib25": [
-        "libs/lib25/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1025": [
-        "libs/lib1025/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib26": [
-        "libs/lib26/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1026": [
-        "libs/lib1026/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib27": [
-        "libs/lib27/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1027": [
-        "libs/lib1027/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib28": [
-        "libs/lib28/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1028": [
-        "libs/lib1028/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib29": [
-        "libs/lib29/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1029": [
-        "libs/lib1029/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib30": [
-        "libs/lib30/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1030": [
-        "libs/lib1030/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib31": [
-        "libs/lib31/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1031": [
-        "libs/lib1031/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib32": [
-        "libs/lib32/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1032": [
-        "libs/lib1032/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib33": [
-        "libs/lib33/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1033": [
-        "libs/lib1033/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib34": [
-        "libs/lib34/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1034": [
-        "libs/lib1034/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib35": [
-        "libs/lib35/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1035": [
-        "libs/lib1035/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib36": [
-        "libs/lib36/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1036": [
-        "libs/lib1036/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib37": [
-        "libs/lib37/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1037": [
-        "libs/lib1037/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib38": [
-        "libs/lib38/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1038": [
-        "libs/lib1038/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib39": [
-        "libs/lib39/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1039": [
-        "libs/lib1039/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib40": [
-        "libs/lib40/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1040": [
-        "libs/lib1040/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib41": [
-        "libs/lib41/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1041": [
-        "libs/lib1041/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib42": [
-        "libs/lib42/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1042": [
-        "libs/lib1042/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib43": [
-        "libs/lib43/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1043": [
-        "libs/lib1043/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib44": [
-        "libs/lib44/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1044": [
-        "libs/lib1044/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib45": [
-        "libs/lib45/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1045": [
-        "libs/lib1045/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib46": [
-        "libs/lib46/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1046": [
-        "libs/lib1046/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib47": [
-        "libs/lib47/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1047": [
-        "libs/lib1047/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib48": [
-        "libs/lib48/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1048": [
-        "libs/lib1048/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib49": [
-        "libs/lib49/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1049": [
-        "libs/lib1049/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib50": [
-        "libs/lib50/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1050": [
-        "libs/lib1050/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib51": [
-        "libs/lib51/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1051": [
-        "libs/lib1051/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib52": [
-        "libs/lib52/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1052": [
-        "libs/lib1052/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib53": [
-        "libs/lib53/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1053": [
-        "libs/lib1053/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib54": [
-        "libs/lib54/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1054": [
-        "libs/lib1054/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib55": [
-        "libs/lib55/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1055": [
-        "libs/lib1055/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib56": [
-        "libs/lib56/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1056": [
-        "libs/lib1056/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib57": [
-        "libs/lib57/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1057": [
-        "libs/lib1057/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib58": [
-        "libs/lib58/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1058": [
-        "libs/lib1058/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib59": [
-        "libs/lib59/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1059": [
-        "libs/lib1059/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib60": [
-        "libs/lib60/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1060": [
-        "libs/lib1060/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib61": [
-        "libs/lib61/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1061": [
-        "libs/lib1061/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib62": [
-        "libs/lib62/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1062": [
-        "libs/lib1062/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib63": [
-        "libs/lib63/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1063": [
-        "libs/lib1063/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib64": [
-        "libs/lib64/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1064": [
-        "libs/lib1064/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib65": [
-        "libs/lib65/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1065": [
-        "libs/lib1065/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib66": [
-        "libs/lib66/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1066": [
-        "libs/lib1066/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib67": [
-        "libs/lib67/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1067": [
-        "libs/lib1067/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib68": [
-        "libs/lib68/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1068": [
-        "libs/lib1068/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib69": [
-        "libs/lib69/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1069": [
-        "libs/lib1069/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib70": [
-        "libs/lib70/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1070": [
-        "libs/lib1070/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib71": [
-        "libs/lib71/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1071": [
-        "libs/lib1071/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib72": [
-        "libs/lib72/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1072": [
-        "libs/lib1072/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib73": [
-        "libs/lib73/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1073": [
-        "libs/lib1073/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib74": [
-        "libs/lib74/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1074": [
-        "libs/lib1074/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib75": [
-        "libs/lib75/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1075": [
-        "libs/lib1075/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib76": [
-        "libs/lib76/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1076": [
-        "libs/lib1076/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib77": [
-        "libs/lib77/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1077": [
-        "libs/lib1077/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib78": [
-        "libs/lib78/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1078": [
-        "libs/lib1078/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib79": [
-        "libs/lib79/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1079": [
-        "libs/lib1079/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib80": [
-        "libs/lib80/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1080": [
-        "libs/lib1080/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib81": [
-        "libs/lib81/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1081": [
-        "libs/lib1081/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib82": [
-        "libs/lib82/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1082": [
-        "libs/lib1082/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib83": [
-        "libs/lib83/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1083": [
-        "libs/lib1083/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib84": [
-        "libs/lib84/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1084": [
-        "libs/lib1084/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib85": [
-        "libs/lib85/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1085": [
-        "libs/lib1085/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib86": [
-        "libs/lib86/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1086": [
-        "libs/lib1086/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib87": [
-        "libs/lib87/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1087": [
-        "libs/lib1087/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib88": [
-        "libs/lib88/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1088": [
-        "libs/lib1088/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib89": [
-        "libs/lib89/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1089": [
-        "libs/lib1089/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib90": [
-        "libs/lib90/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1090": [
-        "libs/lib1090/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib91": [
-        "libs/lib91/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1091": [
-        "libs/lib1091/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib92": [
-        "libs/lib92/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1092": [
-        "libs/lib1092/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib93": [
-        "libs/lib93/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1093": [
-        "libs/lib1093/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib94": [
-        "libs/lib94/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1094": [
-        "libs/lib1094/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib95": [
-        "libs/lib95/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1095": [
-        "libs/lib1095/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib96": [
-        "libs/lib96/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1096": [
-        "libs/lib1096/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib97": [
-        "libs/lib97/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1097": [
-        "libs/lib1097/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib98": [
-        "libs/lib98/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1098": [
-        "libs/lib1098/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib99": [
-        "libs/lib99/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1099": [
-        "libs/lib1099/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib100": [
-        "libs/lib100/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1100": [
-        "libs/lib1100/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib101": [
-        "libs/lib101/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1101": [
-        "libs/lib1101/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib102": [
-        "libs/lib102/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1102": [
-        "libs/lib1102/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib103": [
-        "libs/lib103/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1103": [
-        "libs/lib1103/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib104": [
-        "libs/lib104/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1104": [
-        "libs/lib1104/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib105": [
-        "libs/lib105/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1105": [
-        "libs/lib1105/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib106": [
-        "libs/lib106/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1106": [
-        "libs/lib1106/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib107": [
-        "libs/lib107/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1107": [
-        "libs/lib1107/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib108": [
-        "libs/lib108/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1108": [
-        "libs/lib1108/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib109": [
-        "libs/lib109/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1109": [
-        "libs/lib1109/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib110": [
-        "libs/lib110/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1110": [
-        "libs/lib1110/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib111": [
-        "libs/lib111/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1111": [
-        "libs/lib1111/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib112": [
-        "libs/lib112/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1112": [
-        "libs/lib1112/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib113": [
-        "libs/lib113/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1113": [
-        "libs/lib1113/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib114": [
-        "libs/lib114/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1114": [
-        "libs/lib1114/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib115": [
-        "libs/lib115/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1115": [
-        "libs/lib1115/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib116": [
-        "libs/lib116/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1116": [
-        "libs/lib1116/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib117": [
-        "libs/lib117/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1117": [
-        "libs/lib1117/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib118": [
-        "libs/lib118/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1118": [
-        "libs/lib1118/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib119": [
-        "libs/lib119/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1119": [
-        "libs/lib1119/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib120": [
-        "libs/lib120/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1120": [
-        "libs/lib1120/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib121": [
-        "libs/lib121/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1121": [
-        "libs/lib1121/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib122": [
-        "libs/lib122/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1122": [
-        "libs/lib1122/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib123": [
-        "libs/lib123/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1123": [
-        "libs/lib1123/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib124": [
-        "libs/lib124/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1124": [
-        "libs/lib1124/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib125": [
-        "libs/lib125/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1125": [
-        "libs/lib1125/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib126": [
-        "libs/lib126/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1126": [
-        "libs/lib1126/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib127": [
-        "libs/lib127/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1127": [
-        "libs/lib1127/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib128": [
-        "libs/lib128/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1128": [
-        "libs/lib1128/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib129": [
-        "libs/lib129/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1129": [
-        "libs/lib1129/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib130": [
-        "libs/lib130/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1130": [
-        "libs/lib1130/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib131": [
-        "libs/lib131/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1131": [
-        "libs/lib1131/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib132": [
-        "libs/lib132/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1132": [
-        "libs/lib1132/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib133": [
-        "libs/lib133/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1133": [
-        "libs/lib1133/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib134": [
-        "libs/lib134/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1134": [
-        "libs/lib1134/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib135": [
-        "libs/lib135/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1135": [
-        "libs/lib1135/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib136": [
-        "libs/lib136/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1136": [
-        "libs/lib1136/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib137": [
-        "libs/lib137/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1137": [
-        "libs/lib1137/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib138": [
-        "libs/lib138/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1138": [
-        "libs/lib1138/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib139": [
-        "libs/lib139/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1139": [
-        "libs/lib1139/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib140": [
-        "libs/lib140/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1140": [
-        "libs/lib1140/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib141": [
-        "libs/lib141/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1141": [
-        "libs/lib1141/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib142": [
-        "libs/lib142/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1142": [
-        "libs/lib1142/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib143": [
-        "libs/lib143/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1143": [
-        "libs/lib1143/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib144": [
-        "libs/lib144/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1144": [
-        "libs/lib1144/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib145": [
-        "libs/lib145/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1145": [
-        "libs/lib1145/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib146": [
-        "libs/lib146/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1146": [
-        "libs/lib1146/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib147": [
-        "libs/lib147/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1147": [
-        "libs/lib1147/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib148": [
-        "libs/lib148/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1148": [
-        "libs/lib1148/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib149": [
-        "libs/lib149/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1149": [
-        "libs/lib1149/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib150": [
-        "libs/lib150/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1150": [
-        "libs/lib1150/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib151": [
-        "libs/lib151/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1151": [
-        "libs/lib1151/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib152": [
-        "libs/lib152/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1152": [
-        "libs/lib1152/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib153": [
-        "libs/lib153/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1153": [
-        "libs/lib1153/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib154": [
-        "libs/lib154/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1154": [
-        "libs/lib1154/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib155": [
-        "libs/lib155/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1155": [
-        "libs/lib1155/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib156": [
-        "libs/lib156/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1156": [
-        "libs/lib1156/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib157": [
-        "libs/lib157/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1157": [
-        "libs/lib1157/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib158": [
-        "libs/lib158/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1158": [
-        "libs/lib1158/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib159": [
-        "libs/lib159/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1159": [
-        "libs/lib1159/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib160": [
-        "libs/lib160/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1160": [
-        "libs/lib1160/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib161": [
-        "libs/lib161/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1161": [
-        "libs/lib1161/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib162": [
-        "libs/lib162/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1162": [
-        "libs/lib1162/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib163": [
-        "libs/lib163/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1163": [
-        "libs/lib1163/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib164": [
-        "libs/lib164/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1164": [
-        "libs/lib1164/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib165": [
-        "libs/lib165/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1165": [
-        "libs/lib1165/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib166": [
-        "libs/lib166/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1166": [
-        "libs/lib1166/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib167": [
-        "libs/lib167/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1167": [
-        "libs/lib1167/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib168": [
-        "libs/lib168/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1168": [
-        "libs/lib1168/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib169": [
-        "libs/lib169/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1169": [
-        "libs/lib1169/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib170": [
-        "libs/lib170/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1170": [
-        "libs/lib1170/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib171": [
-        "libs/lib171/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1171": [
-        "libs/lib1171/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib172": [
-        "libs/lib172/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1172": [
-        "libs/lib1172/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib173": [
-        "libs/lib173/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1173": [
-        "libs/lib1173/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib174": [
-        "libs/lib174/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1174": [
-        "libs/lib1174/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib175": [
-        "libs/lib175/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1175": [
-        "libs/lib1175/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib176": [
-        "libs/lib176/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1176": [
-        "libs/lib1176/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib177": [
-        "libs/lib177/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1177": [
-        "libs/lib1177/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib178": [
-        "libs/lib178/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1178": [
-        "libs/lib1178/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib179": [
-        "libs/lib179/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1179": [
-        "libs/lib1179/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib180": [
-        "libs/lib180/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1180": [
-        "libs/lib1180/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib181": [
-        "libs/lib181/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1181": [
-        "libs/lib1181/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib182": [
-        "libs/lib182/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1182": [
-        "libs/lib1182/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib183": [
-        "libs/lib183/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1183": [
-        "libs/lib1183/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib184": [
-        "libs/lib184/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1184": [
-        "libs/lib1184/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib185": [
-        "libs/lib185/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1185": [
-        "libs/lib1185/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib186": [
-        "libs/lib186/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1186": [
-        "libs/lib1186/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib187": [
-        "libs/lib187/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1187": [
-        "libs/lib1187/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib188": [
-        "libs/lib188/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1188": [
-        "libs/lib1188/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib189": [
-        "libs/lib189/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1189": [
-        "libs/lib1189/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib190": [
-        "libs/lib190/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1190": [
-        "libs/lib1190/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib191": [
-        "libs/lib191/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1191": [
-        "libs/lib1191/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib192": [
-        "libs/lib192/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1192": [
-        "libs/lib1192/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib193": [
-        "libs/lib193/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1193": [
-        "libs/lib1193/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib194": [
-        "libs/lib194/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1194": [
-        "libs/lib1194/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib195": [
-        "libs/lib195/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1195": [
-        "libs/lib1195/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib196": [
-        "libs/lib196/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1196": [
-        "libs/lib1196/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib197": [
-        "libs/lib197/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1197": [
-        "libs/lib1197/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib198": [
-        "libs/lib198/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1198": [
-        "libs/lib1198/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib199": [
-        "libs/lib199/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1199": [
-        "libs/lib1199/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib200": [
-        "libs/lib200/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1200": [
-        "libs/lib1200/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib201": [
-        "libs/lib201/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1201": [
-        "libs/lib1201/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib202": [
-        "libs/lib202/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1202": [
-        "libs/lib1202/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib203": [
-        "libs/lib203/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1203": [
-        "libs/lib1203/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib204": [
-        "libs/lib204/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1204": [
-        "libs/lib1204/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib205": [
-        "libs/lib205/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1205": [
-        "libs/lib1205/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib206": [
-        "libs/lib206/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1206": [
-        "libs/lib1206/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib207": [
-        "libs/lib207/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1207": [
-        "libs/lib1207/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib208": [
-        "libs/lib208/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1208": [
-        "libs/lib1208/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib209": [
-        "libs/lib209/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1209": [
-        "libs/lib1209/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib210": [
-        "libs/lib210/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1210": [
-        "libs/lib1210/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib211": [
-        "libs/lib211/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1211": [
-        "libs/lib1211/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib212": [
-        "libs/lib212/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1212": [
-        "libs/lib1212/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib213": [
-        "libs/lib213/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1213": [
-        "libs/lib1213/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib214": [
-        "libs/lib214/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1214": [
-        "libs/lib1214/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib215": [
-        "libs/lib215/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1215": [
-        "libs/lib1215/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib216": [
-        "libs/lib216/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1216": [
-        "libs/lib1216/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib217": [
-        "libs/lib217/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1217": [
-        "libs/lib1217/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib218": [
-        "libs/lib218/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1218": [
-        "libs/lib1218/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib219": [
-        "libs/lib219/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1219": [
-        "libs/lib1219/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib220": [
-        "libs/lib220/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1220": [
-        "libs/lib1220/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib221": [
-        "libs/lib221/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1221": [
-        "libs/lib1221/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib222": [
-        "libs/lib222/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1222": [
-        "libs/lib1222/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib223": [
-        "libs/lib223/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1223": [
-        "libs/lib1223/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib224": [
-        "libs/lib224/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1224": [
-        "libs/lib1224/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib225": [
-        "libs/lib225/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1225": [
-        "libs/lib1225/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib226": [
-        "libs/lib226/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1226": [
-        "libs/lib1226/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib227": [
-        "libs/lib227/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1227": [
-        "libs/lib1227/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib228": [
-        "libs/lib228/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1228": [
-        "libs/lib1228/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib229": [
-        "libs/lib229/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1229": [
-        "libs/lib1229/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib230": [
-        "libs/lib230/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1230": [
-        "libs/lib1230/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib231": [
-        "libs/lib231/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1231": [
-        "libs/lib1231/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib232": [
-        "libs/lib232/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1232": [
-        "libs/lib1232/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib233": [
-        "libs/lib233/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1233": [
-        "libs/lib1233/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib234": [
-        "libs/lib234/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1234": [
-        "libs/lib1234/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib235": [
-        "libs/lib235/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1235": [
-        "libs/lib1235/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib236": [
-        "libs/lib236/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1236": [
-        "libs/lib1236/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib237": [
-        "libs/lib237/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1237": [
-        "libs/lib1237/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib238": [
-        "libs/lib238/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1238": [
-        "libs/lib1238/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib239": [
-        "libs/lib239/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1239": [
-        "libs/lib1239/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib240": [
-        "libs/lib240/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1240": [
-        "libs/lib1240/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib241": [
-        "libs/lib241/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1241": [
-        "libs/lib1241/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib242": [
-        "libs/lib242/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib243": [
-        "libs/lib243/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1243": [
-        "libs/lib1243/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib244": [
-        "libs/lib244/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1244": [
-        "libs/lib1244/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib245": [
-        "libs/lib245/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1245": [
-        "libs/lib1245/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib246": [
-        "libs/lib246/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1246": [
-        "libs/lib1246/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib247": [
-        "libs/lib247/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1247": [
-        "libs/lib1247/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib248": [
-        "libs/lib248/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1248": [
-        "libs/lib1248/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib249": [
-        "libs/lib249/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1249": [
-        "libs/lib1249/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib250": [
-        "libs/lib250/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1250": [
-        "libs/lib1250/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib251": [
-        "libs/lib251/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1251": [
-        "libs/lib1251/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib252": [
-        "libs/lib252/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1252": [
-        "libs/lib1252/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib253": [
-        "libs/lib253/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1253": [
-        "libs/lib1253/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib254": [
-        "libs/lib254/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1254": [
-        "libs/lib1254/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib255": [
-        "libs/lib255/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1255": [
-        "libs/lib1255/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib256": [
-        "libs/lib256/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1256": [
-        "libs/lib1256/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib257": [
-        "libs/lib257/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1257": [
-        "libs/lib1257/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib258": [
-        "libs/lib258/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1258": [
-        "libs/lib1258/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib259": [
-        "libs/lib259/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1259": [
-        "libs/lib1259/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib260": [
-        "libs/lib260/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1260": [
-        "libs/lib1260/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib261": [
-        "libs/lib261/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1261": [
-        "libs/lib1261/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib262": [
-        "libs/lib262/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1262": [
-        "libs/lib1262/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib263": [
-        "libs/lib263/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1263": [
-        "libs/lib1263/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib264": [
-        "libs/lib264/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1264": [
-        "libs/lib1264/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib265": [
-        "libs/lib265/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1265": [
-        "libs/lib1265/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib266": [
-        "libs/lib266/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1266": [
-        "libs/lib1266/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib267": [
-        "libs/lib267/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1267": [
-        "libs/lib1267/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib268": [
-        "libs/lib268/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1268": [
-        "libs/lib1268/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib269": [
-        "libs/lib269/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1269": [
-        "libs/lib1269/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib270": [
-        "libs/lib270/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1270": [
-        "libs/lib1270/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib271": [
-        "libs/lib271/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1271": [
-        "libs/lib1271/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib272": [
-        "libs/lib272/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1272": [
-        "libs/lib1272/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib273": [
-        "libs/lib273/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1273": [
-        "libs/lib1273/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib274": [
-        "libs/lib274/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1274": [
-        "libs/lib1274/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib275": [
-        "libs/lib275/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1275": [
-        "libs/lib1275/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib276": [
-        "libs/lib276/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1276": [
-        "libs/lib1276/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib277": [
-        "libs/lib277/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1277": [
-        "libs/lib1277/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib278": [
-        "libs/lib278/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1278": [
-        "libs/lib1278/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib279": [
-        "libs/lib279/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1279": [
-        "libs/lib1279/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib280": [
-        "libs/lib280/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1280": [
-        "libs/lib1280/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib281": [
-        "libs/lib281/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1281": [
-        "libs/lib1281/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib282": [
-        "libs/lib282/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1282": [
-        "libs/lib1282/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib283": [
-        "libs/lib283/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1283": [
-        "libs/lib1283/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib284": [
-        "libs/lib284/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1284": [
-        "libs/lib1284/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib285": [
-        "libs/lib285/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1285": [
-        "libs/lib1285/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib286": [
-        "libs/lib286/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1286": [
-        "libs/lib1286/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib287": [
-        "libs/lib287/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1287": [
-        "libs/lib1287/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib288": [
-        "libs/lib288/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1288": [
-        "libs/lib1288/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib289": [
-        "libs/lib289/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1289": [
-        "libs/lib1289/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib290": [
-        "libs/lib290/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1290": [
-        "libs/lib1290/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib291": [
-        "libs/lib291/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1291": [
-        "libs/lib1291/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib292": [
-        "libs/lib292/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1292": [
-        "libs/lib1292/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib293": [
-        "libs/lib293/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1293": [
-        "libs/lib1293/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib294": [
-        "libs/lib294/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1294": [
-        "libs/lib1294/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib295": [
-        "libs/lib295/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1295": [
-        "libs/lib1295/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib296": [
-        "libs/lib296/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1296": [
-        "libs/lib1296/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib297": [
-        "libs/lib297/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1297": [
-        "libs/lib1297/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib298": [
-        "libs/lib298/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1298": [
-        "libs/lib1298/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib299": [
-        "libs/lib299/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1299": [
-        "libs/lib1299/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib300": [
-        "libs/lib300/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1300": [
-        "libs/lib1300/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib301": [
-        "libs/lib301/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1301": [
-        "libs/lib1301/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib302": [
-        "libs/lib302/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1302": [
-        "libs/lib1302/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib303": [
-        "libs/lib303/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1303": [
-        "libs/lib1303/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib304": [
-        "libs/lib304/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1304": [
-        "libs/lib1304/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib305": [
-        "libs/lib305/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1305": [
-        "libs/lib1305/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib306": [
-        "libs/lib306/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1306": [
-        "libs/lib1306/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib307": [
-        "libs/lib307/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1307": [
-        "libs/lib1307/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib308": [
-        "libs/lib308/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1308": [
-        "libs/lib1308/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib309": [
-        "libs/lib309/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1309": [
-        "libs/lib1309/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib310": [
-        "libs/lib310/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1310": [
-        "libs/lib1310/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib311": [
-        "libs/lib311/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1311": [
-        "libs/lib1311/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib312": [
-        "libs/lib312/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1312": [
-        "libs/lib1312/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib313": [
-        "libs/lib313/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1313": [
-        "libs/lib1313/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib314": [
-        "libs/lib314/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1314": [
-        "libs/lib1314/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib315": [
-        "libs/lib315/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1315": [
-        "libs/lib1315/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib316": [
-        "libs/lib316/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1316": [
-        "libs/lib1316/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib317": [
-        "libs/lib317/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1317": [
-        "libs/lib1317/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib318": [
-        "libs/lib318/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1318": [
-        "libs/lib1318/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib319": [
-        "libs/lib319/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1319": [
-        "libs/lib1319/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib320": [
-        "libs/lib320/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1320": [
-        "libs/lib1320/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib321": [
-        "libs/lib321/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1321": [
-        "libs/lib1321/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib322": [
-        "libs/lib322/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1322": [
-        "libs/lib1322/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib323": [
-        "libs/lib323/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1323": [
-        "libs/lib1323/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib324": [
-        "libs/lib324/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1324": [
-        "libs/lib1324/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib325": [
-        "libs/lib325/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1325": [
-        "libs/lib1325/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib326": [
-        "libs/lib326/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1326": [
-        "libs/lib1326/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib327": [
-        "libs/lib327/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1327": [
-        "libs/lib1327/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib328": [
-        "libs/lib328/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1328": [
-        "libs/lib1328/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib329": [
-        "libs/lib329/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1329": [
-        "libs/lib1329/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib330": [
-        "libs/lib330/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1330": [
-        "libs/lib1330/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib331": [
-        "libs/lib331/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1331": [
-        "libs/lib1331/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib332": [
-        "libs/lib332/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1332": [
-        "libs/lib1332/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib333": [
-        "libs/lib333/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1333": [
-        "libs/lib1333/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib334": [
-        "libs/lib334/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1334": [
-        "libs/lib1334/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib335": [
-        "libs/lib335/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1335": [
-        "libs/lib1335/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib336": [
-        "libs/lib336/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1336": [
-        "libs/lib1336/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib337": [
-        "libs/lib337/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1337": [
-        "libs/lib1337/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib338": [
-        "libs/lib338/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1338": [
-        "libs/lib1338/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib339": [
-        "libs/lib339/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1339": [
-        "libs/lib1339/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib340": [
-        "libs/lib340/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1340": [
-        "libs/lib1340/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib341": [
-        "libs/lib341/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1341": [
-        "libs/lib1341/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib342": [
-        "libs/lib342/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1342": [
-        "libs/lib1342/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib343": [
-        "libs/lib343/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1343": [
-        "libs/lib1343/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib344": [
-        "libs/lib344/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1344": [
-        "libs/lib1344/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib345": [
-        "libs/lib345/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1345": [
-        "libs/lib1345/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib346": [
-        "libs/lib346/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1346": [
-        "libs/lib1346/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib347": [
-        "libs/lib347/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1347": [
-        "libs/lib1347/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib348": [
-        "libs/lib348/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1348": [
-        "libs/lib1348/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib349": [
-        "libs/lib349/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1349": [
-        "libs/lib1349/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib350": [
-        "libs/lib350/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1350": [
-        "libs/lib1350/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib351": [
-        "libs/lib351/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1351": [
-        "libs/lib1351/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib352": [
-        "libs/lib352/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1352": [
-        "libs/lib1352/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib353": [
-        "libs/lib353/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1353": [
-        "libs/lib1353/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib354": [
-        "libs/lib354/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1354": [
-        "libs/lib1354/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib355": [
-        "libs/lib355/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1355": [
-        "libs/lib1355/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib356": [
-        "libs/lib356/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1356": [
-        "libs/lib1356/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib357": [
-        "libs/lib357/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1357": [
-        "libs/lib1357/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib358": [
-        "libs/lib358/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1358": [
-        "libs/lib1358/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib359": [
-        "libs/lib359/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1359": [
-        "libs/lib1359/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib360": [
-        "libs/lib360/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1360": [
-        "libs/lib1360/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib361": [
-        "libs/lib361/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1361": [
-        "libs/lib1361/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib362": [
-        "libs/lib362/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1362": [
-        "libs/lib1362/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib363": [
-        "libs/lib363/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1363": [
-        "libs/lib1363/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib364": [
-        "libs/lib364/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1364": [
-        "libs/lib1364/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib365": [
-        "libs/lib365/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1365": [
-        "libs/lib1365/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib366": [
-        "libs/lib366/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1366": [
-        "libs/lib1366/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib367": [
-        "libs/lib367/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1367": [
-        "libs/lib1367/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib368": [
-        "libs/lib368/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1368": [
-        "libs/lib1368/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib369": [
-        "libs/lib369/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1369": [
-        "libs/lib1369/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib370": [
-        "libs/lib370/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1370": [
-        "libs/lib1370/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib371": [
-        "libs/lib371/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1371": [
-        "libs/lib1371/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib372": [
-        "libs/lib372/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1372": [
-        "libs/lib1372/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib373": [
-        "libs/lib373/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1373": [
-        "libs/lib1373/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib374": [
-        "libs/lib374/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1374": [
-        "libs/lib1374/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib375": [
-        "libs/lib375/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1375": [
-        "libs/lib1375/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib376": [
-        "libs/lib376/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1376": [
-        "libs/lib1376/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib377": [
-        "libs/lib377/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1377": [
-        "libs/lib1377/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib378": [
-        "libs/lib378/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1378": [
-        "libs/lib1378/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib379": [
-        "libs/lib379/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1379": [
-        "libs/lib1379/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib380": [
-        "libs/lib380/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1380": [
-        "libs/lib1380/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib381": [
-        "libs/lib381/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1381": [
-        "libs/lib1381/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib382": [
-        "libs/lib382/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1382": [
-        "libs/lib1382/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib383": [
-        "libs/lib383/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1383": [
-        "libs/lib1383/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib384": [
-        "libs/lib384/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1384": [
-        "libs/lib1384/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib385": [
-        "libs/lib385/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1385": [
-        "libs/lib1385/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib386": [
-        "libs/lib386/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1386": [
-        "libs/lib1386/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib387": [
-        "libs/lib387/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1387": [
-        "libs/lib1387/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib388": [
-        "libs/lib388/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1388": [
-        "libs/lib1388/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib389": [
-        "libs/lib389/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1389": [
-        "libs/lib1389/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib390": [
-        "libs/lib390/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1390": [
-        "libs/lib1390/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib391": [
-        "libs/lib391/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1391": [
-        "libs/lib1391/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib392": [
-        "libs/lib392/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1392": [
-        "libs/lib1392/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib393": [
-        "libs/lib393/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1393": [
-        "libs/lib1393/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib394": [
-        "libs/lib394/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1394": [
-        "libs/lib1394/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib395": [
-        "libs/lib395/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1395": [
-        "libs/lib1395/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib396": [
-        "libs/lib396/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1396": [
-        "libs/lib1396/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib397": [
-        "libs/lib397/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1397": [
-        "libs/lib1397/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib398": [
-        "libs/lib398/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1398": [
-        "libs/lib1398/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib399": [
-        "libs/lib399/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1399": [
-        "libs/lib1399/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib400": [
-        "libs/lib400/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1400": [
-        "libs/lib1400/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib401": [
-        "libs/lib401/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1401": [
-        "libs/lib1401/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib402": [
-        "libs/lib402/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1402": [
-        "libs/lib1402/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib403": [
-        "libs/lib403/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1403": [
-        "libs/lib1403/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib404": [
-        "libs/lib404/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1404": [
-        "libs/lib1404/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib405": [
-        "libs/lib405/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1405": [
-        "libs/lib1405/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib406": [
-        "libs/lib406/src/index.ts"
-      ],
-      "@ng-bundler-benchmark/lib1406": [
-        "libs/lib1406/src/index.ts"
-      ]
+      "@ng-bundler-benchmark/lib0": ["libs/lib0/src/index.ts"],
+      "@ng-bundler-benchmark/lib1": ["libs/lib1/src/index.ts"],
+      "@ng-bundler-benchmark/lib10": ["libs/lib10/src/index.ts"],
+      "@ng-bundler-benchmark/lib100": ["libs/lib100/src/index.ts"],
+      "@ng-bundler-benchmark/lib1000": ["libs/lib1000/src/index.ts"],
+      "@ng-bundler-benchmark/lib1001": ["libs/lib1001/src/index.ts"],
+      "@ng-bundler-benchmark/lib1002": ["libs/lib1002/src/index.ts"],
+      "@ng-bundler-benchmark/lib1003": ["libs/lib1003/src/index.ts"],
+      "@ng-bundler-benchmark/lib1004": ["libs/lib1004/src/index.ts"],
+      "@ng-bundler-benchmark/lib1005": ["libs/lib1005/src/index.ts"],
+      "@ng-bundler-benchmark/lib1006": ["libs/lib1006/src/index.ts"],
+      "@ng-bundler-benchmark/lib1007": ["libs/lib1007/src/index.ts"],
+      "@ng-bundler-benchmark/lib1008": ["libs/lib1008/src/index.ts"],
+      "@ng-bundler-benchmark/lib1009": ["libs/lib1009/src/index.ts"],
+      "@ng-bundler-benchmark/lib101": ["libs/lib101/src/index.ts"],
+      "@ng-bundler-benchmark/lib1010": ["libs/lib1010/src/index.ts"],
+      "@ng-bundler-benchmark/lib1011": ["libs/lib1011/src/index.ts"],
+      "@ng-bundler-benchmark/lib1012": ["libs/lib1012/src/index.ts"],
+      "@ng-bundler-benchmark/lib1013": ["libs/lib1013/src/index.ts"],
+      "@ng-bundler-benchmark/lib1014": ["libs/lib1014/src/index.ts"],
+      "@ng-bundler-benchmark/lib1015": ["libs/lib1015/src/index.ts"],
+      "@ng-bundler-benchmark/lib1016": ["libs/lib1016/src/index.ts"],
+      "@ng-bundler-benchmark/lib1017": ["libs/lib1017/src/index.ts"],
+      "@ng-bundler-benchmark/lib1018": ["libs/lib1018/src/index.ts"],
+      "@ng-bundler-benchmark/lib1019": ["libs/lib1019/src/index.ts"],
+      "@ng-bundler-benchmark/lib102": ["libs/lib102/src/index.ts"],
+      "@ng-bundler-benchmark/lib1020": ["libs/lib1020/src/index.ts"],
+      "@ng-bundler-benchmark/lib1021": ["libs/lib1021/src/index.ts"],
+      "@ng-bundler-benchmark/lib1022": ["libs/lib1022/src/index.ts"],
+      "@ng-bundler-benchmark/lib1023": ["libs/lib1023/src/index.ts"],
+      "@ng-bundler-benchmark/lib1024": ["libs/lib1024/src/index.ts"],
+      "@ng-bundler-benchmark/lib1025": ["libs/lib1025/src/index.ts"],
+      "@ng-bundler-benchmark/lib1026": ["libs/lib1026/src/index.ts"],
+      "@ng-bundler-benchmark/lib1027": ["libs/lib1027/src/index.ts"],
+      "@ng-bundler-benchmark/lib1028": ["libs/lib1028/src/index.ts"],
+      "@ng-bundler-benchmark/lib1029": ["libs/lib1029/src/index.ts"],
+      "@ng-bundler-benchmark/lib103": ["libs/lib103/src/index.ts"],
+      "@ng-bundler-benchmark/lib1030": ["libs/lib1030/src/index.ts"],
+      "@ng-bundler-benchmark/lib1031": ["libs/lib1031/src/index.ts"],
+      "@ng-bundler-benchmark/lib1032": ["libs/lib1032/src/index.ts"],
+      "@ng-bundler-benchmark/lib1033": ["libs/lib1033/src/index.ts"],
+      "@ng-bundler-benchmark/lib1034": ["libs/lib1034/src/index.ts"],
+      "@ng-bundler-benchmark/lib1035": ["libs/lib1035/src/index.ts"],
+      "@ng-bundler-benchmark/lib1036": ["libs/lib1036/src/index.ts"],
+      "@ng-bundler-benchmark/lib1037": ["libs/lib1037/src/index.ts"],
+      "@ng-bundler-benchmark/lib1038": ["libs/lib1038/src/index.ts"],
+      "@ng-bundler-benchmark/lib1039": ["libs/lib1039/src/index.ts"],
+      "@ng-bundler-benchmark/lib104": ["libs/lib104/src/index.ts"],
+      "@ng-bundler-benchmark/lib1040": ["libs/lib1040/src/index.ts"],
+      "@ng-bundler-benchmark/lib1041": ["libs/lib1041/src/index.ts"],
+      "@ng-bundler-benchmark/lib1042": ["libs/lib1042/src/index.ts"],
+      "@ng-bundler-benchmark/lib1043": ["libs/lib1043/src/index.ts"],
+      "@ng-bundler-benchmark/lib1044": ["libs/lib1044/src/index.ts"],
+      "@ng-bundler-benchmark/lib1045": ["libs/lib1045/src/index.ts"],
+      "@ng-bundler-benchmark/lib1046": ["libs/lib1046/src/index.ts"],
+      "@ng-bundler-benchmark/lib1047": ["libs/lib1047/src/index.ts"],
+      "@ng-bundler-benchmark/lib1048": ["libs/lib1048/src/index.ts"],
+      "@ng-bundler-benchmark/lib1049": ["libs/lib1049/src/index.ts"],
+      "@ng-bundler-benchmark/lib105": ["libs/lib105/src/index.ts"],
+      "@ng-bundler-benchmark/lib1050": ["libs/lib1050/src/index.ts"],
+      "@ng-bundler-benchmark/lib1051": ["libs/lib1051/src/index.ts"],
+      "@ng-bundler-benchmark/lib1052": ["libs/lib1052/src/index.ts"],
+      "@ng-bundler-benchmark/lib1053": ["libs/lib1053/src/index.ts"],
+      "@ng-bundler-benchmark/lib1054": ["libs/lib1054/src/index.ts"],
+      "@ng-bundler-benchmark/lib1055": ["libs/lib1055/src/index.ts"],
+      "@ng-bundler-benchmark/lib1056": ["libs/lib1056/src/index.ts"],
+      "@ng-bundler-benchmark/lib1057": ["libs/lib1057/src/index.ts"],
+      "@ng-bundler-benchmark/lib1058": ["libs/lib1058/src/index.ts"],
+      "@ng-bundler-benchmark/lib1059": ["libs/lib1059/src/index.ts"],
+      "@ng-bundler-benchmark/lib106": ["libs/lib106/src/index.ts"],
+      "@ng-bundler-benchmark/lib1060": ["libs/lib1060/src/index.ts"],
+      "@ng-bundler-benchmark/lib1061": ["libs/lib1061/src/index.ts"],
+      "@ng-bundler-benchmark/lib1062": ["libs/lib1062/src/index.ts"],
+      "@ng-bundler-benchmark/lib1063": ["libs/lib1063/src/index.ts"],
+      "@ng-bundler-benchmark/lib1064": ["libs/lib1064/src/index.ts"],
+      "@ng-bundler-benchmark/lib1065": ["libs/lib1065/src/index.ts"],
+      "@ng-bundler-benchmark/lib1066": ["libs/lib1066/src/index.ts"],
+      "@ng-bundler-benchmark/lib1067": ["libs/lib1067/src/index.ts"],
+      "@ng-bundler-benchmark/lib1068": ["libs/lib1068/src/index.ts"],
+      "@ng-bundler-benchmark/lib1069": ["libs/lib1069/src/index.ts"],
+      "@ng-bundler-benchmark/lib107": ["libs/lib107/src/index.ts"],
+      "@ng-bundler-benchmark/lib1070": ["libs/lib1070/src/index.ts"],
+      "@ng-bundler-benchmark/lib1071": ["libs/lib1071/src/index.ts"],
+      "@ng-bundler-benchmark/lib1072": ["libs/lib1072/src/index.ts"],
+      "@ng-bundler-benchmark/lib1073": ["libs/lib1073/src/index.ts"],
+      "@ng-bundler-benchmark/lib1074": ["libs/lib1074/src/index.ts"],
+      "@ng-bundler-benchmark/lib1075": ["libs/lib1075/src/index.ts"],
+      "@ng-bundler-benchmark/lib1076": ["libs/lib1076/src/index.ts"],
+      "@ng-bundler-benchmark/lib1077": ["libs/lib1077/src/index.ts"],
+      "@ng-bundler-benchmark/lib1078": ["libs/lib1078/src/index.ts"],
+      "@ng-bundler-benchmark/lib1079": ["libs/lib1079/src/index.ts"],
+      "@ng-bundler-benchmark/lib108": ["libs/lib108/src/index.ts"],
+      "@ng-bundler-benchmark/lib1080": ["libs/lib1080/src/index.ts"],
+      "@ng-bundler-benchmark/lib1081": ["libs/lib1081/src/index.ts"],
+      "@ng-bundler-benchmark/lib1082": ["libs/lib1082/src/index.ts"],
+      "@ng-bundler-benchmark/lib1083": ["libs/lib1083/src/index.ts"],
+      "@ng-bundler-benchmark/lib1084": ["libs/lib1084/src/index.ts"],
+      "@ng-bundler-benchmark/lib1085": ["libs/lib1085/src/index.ts"],
+      "@ng-bundler-benchmark/lib1086": ["libs/lib1086/src/index.ts"],
+      "@ng-bundler-benchmark/lib1087": ["libs/lib1087/src/index.ts"],
+      "@ng-bundler-benchmark/lib1088": ["libs/lib1088/src/index.ts"],
+      "@ng-bundler-benchmark/lib1089": ["libs/lib1089/src/index.ts"],
+      "@ng-bundler-benchmark/lib109": ["libs/lib109/src/index.ts"],
+      "@ng-bundler-benchmark/lib1090": ["libs/lib1090/src/index.ts"],
+      "@ng-bundler-benchmark/lib1091": ["libs/lib1091/src/index.ts"],
+      "@ng-bundler-benchmark/lib1092": ["libs/lib1092/src/index.ts"],
+      "@ng-bundler-benchmark/lib1093": ["libs/lib1093/src/index.ts"],
+      "@ng-bundler-benchmark/lib1094": ["libs/lib1094/src/index.ts"],
+      "@ng-bundler-benchmark/lib1095": ["libs/lib1095/src/index.ts"],
+      "@ng-bundler-benchmark/lib1096": ["libs/lib1096/src/index.ts"],
+      "@ng-bundler-benchmark/lib1097": ["libs/lib1097/src/index.ts"],
+      "@ng-bundler-benchmark/lib1098": ["libs/lib1098/src/index.ts"],
+      "@ng-bundler-benchmark/lib1099": ["libs/lib1099/src/index.ts"],
+      "@ng-bundler-benchmark/lib11": ["libs/lib11/src/index.ts"],
+      "@ng-bundler-benchmark/lib110": ["libs/lib110/src/index.ts"],
+      "@ng-bundler-benchmark/lib1100": ["libs/lib1100/src/index.ts"],
+      "@ng-bundler-benchmark/lib1101": ["libs/lib1101/src/index.ts"],
+      "@ng-bundler-benchmark/lib1102": ["libs/lib1102/src/index.ts"],
+      "@ng-bundler-benchmark/lib1103": ["libs/lib1103/src/index.ts"],
+      "@ng-bundler-benchmark/lib1104": ["libs/lib1104/src/index.ts"],
+      "@ng-bundler-benchmark/lib1105": ["libs/lib1105/src/index.ts"],
+      "@ng-bundler-benchmark/lib1106": ["libs/lib1106/src/index.ts"],
+      "@ng-bundler-benchmark/lib1107": ["libs/lib1107/src/index.ts"],
+      "@ng-bundler-benchmark/lib1108": ["libs/lib1108/src/index.ts"],
+      "@ng-bundler-benchmark/lib1109": ["libs/lib1109/src/index.ts"],
+      "@ng-bundler-benchmark/lib111": ["libs/lib111/src/index.ts"],
+      "@ng-bundler-benchmark/lib1110": ["libs/lib1110/src/index.ts"],
+      "@ng-bundler-benchmark/lib1111": ["libs/lib1111/src/index.ts"],
+      "@ng-bundler-benchmark/lib1112": ["libs/lib1112/src/index.ts"],
+      "@ng-bundler-benchmark/lib1113": ["libs/lib1113/src/index.ts"],
+      "@ng-bundler-benchmark/lib1114": ["libs/lib1114/src/index.ts"],
+      "@ng-bundler-benchmark/lib1115": ["libs/lib1115/src/index.ts"],
+      "@ng-bundler-benchmark/lib1116": ["libs/lib1116/src/index.ts"],
+      "@ng-bundler-benchmark/lib1117": ["libs/lib1117/src/index.ts"],
+      "@ng-bundler-benchmark/lib1118": ["libs/lib1118/src/index.ts"],
+      "@ng-bundler-benchmark/lib1119": ["libs/lib1119/src/index.ts"],
+      "@ng-bundler-benchmark/lib112": ["libs/lib112/src/index.ts"],
+      "@ng-bundler-benchmark/lib1120": ["libs/lib1120/src/index.ts"],
+      "@ng-bundler-benchmark/lib1121": ["libs/lib1121/src/index.ts"],
+      "@ng-bundler-benchmark/lib1122": ["libs/lib1122/src/index.ts"],
+      "@ng-bundler-benchmark/lib1123": ["libs/lib1123/src/index.ts"],
+      "@ng-bundler-benchmark/lib1124": ["libs/lib1124/src/index.ts"],
+      "@ng-bundler-benchmark/lib1125": ["libs/lib1125/src/index.ts"],
+      "@ng-bundler-benchmark/lib1126": ["libs/lib1126/src/index.ts"],
+      "@ng-bundler-benchmark/lib1127": ["libs/lib1127/src/index.ts"],
+      "@ng-bundler-benchmark/lib1128": ["libs/lib1128/src/index.ts"],
+      "@ng-bundler-benchmark/lib1129": ["libs/lib1129/src/index.ts"],
+      "@ng-bundler-benchmark/lib113": ["libs/lib113/src/index.ts"],
+      "@ng-bundler-benchmark/lib1130": ["libs/lib1130/src/index.ts"],
+      "@ng-bundler-benchmark/lib1131": ["libs/lib1131/src/index.ts"],
+      "@ng-bundler-benchmark/lib1132": ["libs/lib1132/src/index.ts"],
+      "@ng-bundler-benchmark/lib1133": ["libs/lib1133/src/index.ts"],
+      "@ng-bundler-benchmark/lib1134": ["libs/lib1134/src/index.ts"],
+      "@ng-bundler-benchmark/lib1135": ["libs/lib1135/src/index.ts"],
+      "@ng-bundler-benchmark/lib1136": ["libs/lib1136/src/index.ts"],
+      "@ng-bundler-benchmark/lib1137": ["libs/lib1137/src/index.ts"],
+      "@ng-bundler-benchmark/lib1138": ["libs/lib1138/src/index.ts"],
+      "@ng-bundler-benchmark/lib1139": ["libs/lib1139/src/index.ts"],
+      "@ng-bundler-benchmark/lib114": ["libs/lib114/src/index.ts"],
+      "@ng-bundler-benchmark/lib1140": ["libs/lib1140/src/index.ts"],
+      "@ng-bundler-benchmark/lib1141": ["libs/lib1141/src/index.ts"],
+      "@ng-bundler-benchmark/lib1142": ["libs/lib1142/src/index.ts"],
+      "@ng-bundler-benchmark/lib1143": ["libs/lib1143/src/index.ts"],
+      "@ng-bundler-benchmark/lib1144": ["libs/lib1144/src/index.ts"],
+      "@ng-bundler-benchmark/lib1145": ["libs/lib1145/src/index.ts"],
+      "@ng-bundler-benchmark/lib1146": ["libs/lib1146/src/index.ts"],
+      "@ng-bundler-benchmark/lib1147": ["libs/lib1147/src/index.ts"],
+      "@ng-bundler-benchmark/lib1148": ["libs/lib1148/src/index.ts"],
+      "@ng-bundler-benchmark/lib1149": ["libs/lib1149/src/index.ts"],
+      "@ng-bundler-benchmark/lib115": ["libs/lib115/src/index.ts"],
+      "@ng-bundler-benchmark/lib1150": ["libs/lib1150/src/index.ts"],
+      "@ng-bundler-benchmark/lib1151": ["libs/lib1151/src/index.ts"],
+      "@ng-bundler-benchmark/lib1152": ["libs/lib1152/src/index.ts"],
+      "@ng-bundler-benchmark/lib1153": ["libs/lib1153/src/index.ts"],
+      "@ng-bundler-benchmark/lib1154": ["libs/lib1154/src/index.ts"],
+      "@ng-bundler-benchmark/lib1155": ["libs/lib1155/src/index.ts"],
+      "@ng-bundler-benchmark/lib1156": ["libs/lib1156/src/index.ts"],
+      "@ng-bundler-benchmark/lib1157": ["libs/lib1157/src/index.ts"],
+      "@ng-bundler-benchmark/lib1158": ["libs/lib1158/src/index.ts"],
+      "@ng-bundler-benchmark/lib1159": ["libs/lib1159/src/index.ts"],
+      "@ng-bundler-benchmark/lib116": ["libs/lib116/src/index.ts"],
+      "@ng-bundler-benchmark/lib1160": ["libs/lib1160/src/index.ts"],
+      "@ng-bundler-benchmark/lib1161": ["libs/lib1161/src/index.ts"],
+      "@ng-bundler-benchmark/lib1162": ["libs/lib1162/src/index.ts"],
+      "@ng-bundler-benchmark/lib1163": ["libs/lib1163/src/index.ts"],
+      "@ng-bundler-benchmark/lib1164": ["libs/lib1164/src/index.ts"],
+      "@ng-bundler-benchmark/lib1165": ["libs/lib1165/src/index.ts"],
+      "@ng-bundler-benchmark/lib1166": ["libs/lib1166/src/index.ts"],
+      "@ng-bundler-benchmark/lib1167": ["libs/lib1167/src/index.ts"],
+      "@ng-bundler-benchmark/lib1168": ["libs/lib1168/src/index.ts"],
+      "@ng-bundler-benchmark/lib1169": ["libs/lib1169/src/index.ts"],
+      "@ng-bundler-benchmark/lib117": ["libs/lib117/src/index.ts"],
+      "@ng-bundler-benchmark/lib1170": ["libs/lib1170/src/index.ts"],
+      "@ng-bundler-benchmark/lib1171": ["libs/lib1171/src/index.ts"],
+      "@ng-bundler-benchmark/lib1172": ["libs/lib1172/src/index.ts"],
+      "@ng-bundler-benchmark/lib1173": ["libs/lib1173/src/index.ts"],
+      "@ng-bundler-benchmark/lib1174": ["libs/lib1174/src/index.ts"],
+      "@ng-bundler-benchmark/lib1175": ["libs/lib1175/src/index.ts"],
+      "@ng-bundler-benchmark/lib1176": ["libs/lib1176/src/index.ts"],
+      "@ng-bundler-benchmark/lib1177": ["libs/lib1177/src/index.ts"],
+      "@ng-bundler-benchmark/lib1178": ["libs/lib1178/src/index.ts"],
+      "@ng-bundler-benchmark/lib1179": ["libs/lib1179/src/index.ts"],
+      "@ng-bundler-benchmark/lib118": ["libs/lib118/src/index.ts"],
+      "@ng-bundler-benchmark/lib1180": ["libs/lib1180/src/index.ts"],
+      "@ng-bundler-benchmark/lib1181": ["libs/lib1181/src/index.ts"],
+      "@ng-bundler-benchmark/lib1182": ["libs/lib1182/src/index.ts"],
+      "@ng-bundler-benchmark/lib1183": ["libs/lib1183/src/index.ts"],
+      "@ng-bundler-benchmark/lib1184": ["libs/lib1184/src/index.ts"],
+      "@ng-bundler-benchmark/lib1185": ["libs/lib1185/src/index.ts"],
+      "@ng-bundler-benchmark/lib1186": ["libs/lib1186/src/index.ts"],
+      "@ng-bundler-benchmark/lib1187": ["libs/lib1187/src/index.ts"],
+      "@ng-bundler-benchmark/lib1188": ["libs/lib1188/src/index.ts"],
+      "@ng-bundler-benchmark/lib1189": ["libs/lib1189/src/index.ts"],
+      "@ng-bundler-benchmark/lib119": ["libs/lib119/src/index.ts"],
+      "@ng-bundler-benchmark/lib1190": ["libs/lib1190/src/index.ts"],
+      "@ng-bundler-benchmark/lib1191": ["libs/lib1191/src/index.ts"],
+      "@ng-bundler-benchmark/lib1192": ["libs/lib1192/src/index.ts"],
+      "@ng-bundler-benchmark/lib1193": ["libs/lib1193/src/index.ts"],
+      "@ng-bundler-benchmark/lib1194": ["libs/lib1194/src/index.ts"],
+      "@ng-bundler-benchmark/lib1195": ["libs/lib1195/src/index.ts"],
+      "@ng-bundler-benchmark/lib1196": ["libs/lib1196/src/index.ts"],
+      "@ng-bundler-benchmark/lib1197": ["libs/lib1197/src/index.ts"],
+      "@ng-bundler-benchmark/lib1198": ["libs/lib1198/src/index.ts"],
+      "@ng-bundler-benchmark/lib1199": ["libs/lib1199/src/index.ts"],
+      "@ng-bundler-benchmark/lib12": ["libs/lib12/src/index.ts"],
+      "@ng-bundler-benchmark/lib120": ["libs/lib120/src/index.ts"],
+      "@ng-bundler-benchmark/lib1200": ["libs/lib1200/src/index.ts"],
+      "@ng-bundler-benchmark/lib1201": ["libs/lib1201/src/index.ts"],
+      "@ng-bundler-benchmark/lib1202": ["libs/lib1202/src/index.ts"],
+      "@ng-bundler-benchmark/lib1203": ["libs/lib1203/src/index.ts"],
+      "@ng-bundler-benchmark/lib1204": ["libs/lib1204/src/index.ts"],
+      "@ng-bundler-benchmark/lib1205": ["libs/lib1205/src/index.ts"],
+      "@ng-bundler-benchmark/lib1206": ["libs/lib1206/src/index.ts"],
+      "@ng-bundler-benchmark/lib1207": ["libs/lib1207/src/index.ts"],
+      "@ng-bundler-benchmark/lib1208": ["libs/lib1208/src/index.ts"],
+      "@ng-bundler-benchmark/lib1209": ["libs/lib1209/src/index.ts"],
+      "@ng-bundler-benchmark/lib121": ["libs/lib121/src/index.ts"],
+      "@ng-bundler-benchmark/lib1210": ["libs/lib1210/src/index.ts"],
+      "@ng-bundler-benchmark/lib1211": ["libs/lib1211/src/index.ts"],
+      "@ng-bundler-benchmark/lib1212": ["libs/lib1212/src/index.ts"],
+      "@ng-bundler-benchmark/lib1213": ["libs/lib1213/src/index.ts"],
+      "@ng-bundler-benchmark/lib1214": ["libs/lib1214/src/index.ts"],
+      "@ng-bundler-benchmark/lib1215": ["libs/lib1215/src/index.ts"],
+      "@ng-bundler-benchmark/lib1216": ["libs/lib1216/src/index.ts"],
+      "@ng-bundler-benchmark/lib1217": ["libs/lib1217/src/index.ts"],
+      "@ng-bundler-benchmark/lib1218": ["libs/lib1218/src/index.ts"],
+      "@ng-bundler-benchmark/lib1219": ["libs/lib1219/src/index.ts"],
+      "@ng-bundler-benchmark/lib122": ["libs/lib122/src/index.ts"],
+      "@ng-bundler-benchmark/lib1220": ["libs/lib1220/src/index.ts"],
+      "@ng-bundler-benchmark/lib1221": ["libs/lib1221/src/index.ts"],
+      "@ng-bundler-benchmark/lib1222": ["libs/lib1222/src/index.ts"],
+      "@ng-bundler-benchmark/lib1223": ["libs/lib1223/src/index.ts"],
+      "@ng-bundler-benchmark/lib1224": ["libs/lib1224/src/index.ts"],
+      "@ng-bundler-benchmark/lib1225": ["libs/lib1225/src/index.ts"],
+      "@ng-bundler-benchmark/lib1226": ["libs/lib1226/src/index.ts"],
+      "@ng-bundler-benchmark/lib1227": ["libs/lib1227/src/index.ts"],
+      "@ng-bundler-benchmark/lib1228": ["libs/lib1228/src/index.ts"],
+      "@ng-bundler-benchmark/lib1229": ["libs/lib1229/src/index.ts"],
+      "@ng-bundler-benchmark/lib123": ["libs/lib123/src/index.ts"],
+      "@ng-bundler-benchmark/lib1230": ["libs/lib1230/src/index.ts"],
+      "@ng-bundler-benchmark/lib1231": ["libs/lib1231/src/index.ts"],
+      "@ng-bundler-benchmark/lib1232": ["libs/lib1232/src/index.ts"],
+      "@ng-bundler-benchmark/lib1233": ["libs/lib1233/src/index.ts"],
+      "@ng-bundler-benchmark/lib1234": ["libs/lib1234/src/index.ts"],
+      "@ng-bundler-benchmark/lib1235": ["libs/lib1235/src/index.ts"],
+      "@ng-bundler-benchmark/lib1236": ["libs/lib1236/src/index.ts"],
+      "@ng-bundler-benchmark/lib1237": ["libs/lib1237/src/index.ts"],
+      "@ng-bundler-benchmark/lib1238": ["libs/lib1238/src/index.ts"],
+      "@ng-bundler-benchmark/lib1239": ["libs/lib1239/src/index.ts"],
+      "@ng-bundler-benchmark/lib124": ["libs/lib124/src/index.ts"],
+      "@ng-bundler-benchmark/lib1240": ["libs/lib1240/src/index.ts"],
+      "@ng-bundler-benchmark/lib1241": ["libs/lib1241/src/index.ts"],
+      "@ng-bundler-benchmark/lib1243": ["libs/lib1243/src/index.ts"],
+      "@ng-bundler-benchmark/lib1244": ["libs/lib1244/src/index.ts"],
+      "@ng-bundler-benchmark/lib1245": ["libs/lib1245/src/index.ts"],
+      "@ng-bundler-benchmark/lib1246": ["libs/lib1246/src/index.ts"],
+      "@ng-bundler-benchmark/lib1247": ["libs/lib1247/src/index.ts"],
+      "@ng-bundler-benchmark/lib1248": ["libs/lib1248/src/index.ts"],
+      "@ng-bundler-benchmark/lib1249": ["libs/lib1249/src/index.ts"],
+      "@ng-bundler-benchmark/lib125": ["libs/lib125/src/index.ts"],
+      "@ng-bundler-benchmark/lib1250": ["libs/lib1250/src/index.ts"],
+      "@ng-bundler-benchmark/lib1251": ["libs/lib1251/src/index.ts"],
+      "@ng-bundler-benchmark/lib1252": ["libs/lib1252/src/index.ts"],
+      "@ng-bundler-benchmark/lib1253": ["libs/lib1253/src/index.ts"],
+      "@ng-bundler-benchmark/lib1254": ["libs/lib1254/src/index.ts"],
+      "@ng-bundler-benchmark/lib1255": ["libs/lib1255/src/index.ts"],
+      "@ng-bundler-benchmark/lib1256": ["libs/lib1256/src/index.ts"],
+      "@ng-bundler-benchmark/lib1257": ["libs/lib1257/src/index.ts"],
+      "@ng-bundler-benchmark/lib1258": ["libs/lib1258/src/index.ts"],
+      "@ng-bundler-benchmark/lib1259": ["libs/lib1259/src/index.ts"],
+      "@ng-bundler-benchmark/lib126": ["libs/lib126/src/index.ts"],
+      "@ng-bundler-benchmark/lib1260": ["libs/lib1260/src/index.ts"],
+      "@ng-bundler-benchmark/lib1261": ["libs/lib1261/src/index.ts"],
+      "@ng-bundler-benchmark/lib1262": ["libs/lib1262/src/index.ts"],
+      "@ng-bundler-benchmark/lib1263": ["libs/lib1263/src/index.ts"],
+      "@ng-bundler-benchmark/lib1264": ["libs/lib1264/src/index.ts"],
+      "@ng-bundler-benchmark/lib1265": ["libs/lib1265/src/index.ts"],
+      "@ng-bundler-benchmark/lib1266": ["libs/lib1266/src/index.ts"],
+      "@ng-bundler-benchmark/lib1267": ["libs/lib1267/src/index.ts"],
+      "@ng-bundler-benchmark/lib1268": ["libs/lib1268/src/index.ts"],
+      "@ng-bundler-benchmark/lib1269": ["libs/lib1269/src/index.ts"],
+      "@ng-bundler-benchmark/lib127": ["libs/lib127/src/index.ts"],
+      "@ng-bundler-benchmark/lib1270": ["libs/lib1270/src/index.ts"],
+      "@ng-bundler-benchmark/lib1271": ["libs/lib1271/src/index.ts"],
+      "@ng-bundler-benchmark/lib1272": ["libs/lib1272/src/index.ts"],
+      "@ng-bundler-benchmark/lib1273": ["libs/lib1273/src/index.ts"],
+      "@ng-bundler-benchmark/lib1274": ["libs/lib1274/src/index.ts"],
+      "@ng-bundler-benchmark/lib1275": ["libs/lib1275/src/index.ts"],
+      "@ng-bundler-benchmark/lib1276": ["libs/lib1276/src/index.ts"],
+      "@ng-bundler-benchmark/lib1277": ["libs/lib1277/src/index.ts"],
+      "@ng-bundler-benchmark/lib1278": ["libs/lib1278/src/index.ts"],
+      "@ng-bundler-benchmark/lib1279": ["libs/lib1279/src/index.ts"],
+      "@ng-bundler-benchmark/lib128": ["libs/lib128/src/index.ts"],
+      "@ng-bundler-benchmark/lib1280": ["libs/lib1280/src/index.ts"],
+      "@ng-bundler-benchmark/lib1281": ["libs/lib1281/src/index.ts"],
+      "@ng-bundler-benchmark/lib1282": ["libs/lib1282/src/index.ts"],
+      "@ng-bundler-benchmark/lib1283": ["libs/lib1283/src/index.ts"],
+      "@ng-bundler-benchmark/lib1284": ["libs/lib1284/src/index.ts"],
+      "@ng-bundler-benchmark/lib1285": ["libs/lib1285/src/index.ts"],
+      "@ng-bundler-benchmark/lib1286": ["libs/lib1286/src/index.ts"],
+      "@ng-bundler-benchmark/lib1287": ["libs/lib1287/src/index.ts"],
+      "@ng-bundler-benchmark/lib1288": ["libs/lib1288/src/index.ts"],
+      "@ng-bundler-benchmark/lib1289": ["libs/lib1289/src/index.ts"],
+      "@ng-bundler-benchmark/lib129": ["libs/lib129/src/index.ts"],
+      "@ng-bundler-benchmark/lib1290": ["libs/lib1290/src/index.ts"],
+      "@ng-bundler-benchmark/lib1291": ["libs/lib1291/src/index.ts"],
+      "@ng-bundler-benchmark/lib1292": ["libs/lib1292/src/index.ts"],
+      "@ng-bundler-benchmark/lib1293": ["libs/lib1293/src/index.ts"],
+      "@ng-bundler-benchmark/lib1294": ["libs/lib1294/src/index.ts"],
+      "@ng-bundler-benchmark/lib1295": ["libs/lib1295/src/index.ts"],
+      "@ng-bundler-benchmark/lib1296": ["libs/lib1296/src/index.ts"],
+      "@ng-bundler-benchmark/lib1297": ["libs/lib1297/src/index.ts"],
+      "@ng-bundler-benchmark/lib1298": ["libs/lib1298/src/index.ts"],
+      "@ng-bundler-benchmark/lib1299": ["libs/lib1299/src/index.ts"],
+      "@ng-bundler-benchmark/lib13": ["libs/lib13/src/index.ts"],
+      "@ng-bundler-benchmark/lib130": ["libs/lib130/src/index.ts"],
+      "@ng-bundler-benchmark/lib1300": ["libs/lib1300/src/index.ts"],
+      "@ng-bundler-benchmark/lib1301": ["libs/lib1301/src/index.ts"],
+      "@ng-bundler-benchmark/lib1302": ["libs/lib1302/src/index.ts"],
+      "@ng-bundler-benchmark/lib1303": ["libs/lib1303/src/index.ts"],
+      "@ng-bundler-benchmark/lib1304": ["libs/lib1304/src/index.ts"],
+      "@ng-bundler-benchmark/lib1305": ["libs/lib1305/src/index.ts"],
+      "@ng-bundler-benchmark/lib1306": ["libs/lib1306/src/index.ts"],
+      "@ng-bundler-benchmark/lib1307": ["libs/lib1307/src/index.ts"],
+      "@ng-bundler-benchmark/lib1308": ["libs/lib1308/src/index.ts"],
+      "@ng-bundler-benchmark/lib1309": ["libs/lib1309/src/index.ts"],
+      "@ng-bundler-benchmark/lib131": ["libs/lib131/src/index.ts"],
+      "@ng-bundler-benchmark/lib1310": ["libs/lib1310/src/index.ts"],
+      "@ng-bundler-benchmark/lib1311": ["libs/lib1311/src/index.ts"],
+      "@ng-bundler-benchmark/lib1312": ["libs/lib1312/src/index.ts"],
+      "@ng-bundler-benchmark/lib1313": ["libs/lib1313/src/index.ts"],
+      "@ng-bundler-benchmark/lib1314": ["libs/lib1314/src/index.ts"],
+      "@ng-bundler-benchmark/lib1315": ["libs/lib1315/src/index.ts"],
+      "@ng-bundler-benchmark/lib1316": ["libs/lib1316/src/index.ts"],
+      "@ng-bundler-benchmark/lib1317": ["libs/lib1317/src/index.ts"],
+      "@ng-bundler-benchmark/lib1318": ["libs/lib1318/src/index.ts"],
+      "@ng-bundler-benchmark/lib1319": ["libs/lib1319/src/index.ts"],
+      "@ng-bundler-benchmark/lib132": ["libs/lib132/src/index.ts"],
+      "@ng-bundler-benchmark/lib1320": ["libs/lib1320/src/index.ts"],
+      "@ng-bundler-benchmark/lib1321": ["libs/lib1321/src/index.ts"],
+      "@ng-bundler-benchmark/lib1322": ["libs/lib1322/src/index.ts"],
+      "@ng-bundler-benchmark/lib1323": ["libs/lib1323/src/index.ts"],
+      "@ng-bundler-benchmark/lib1324": ["libs/lib1324/src/index.ts"],
+      "@ng-bundler-benchmark/lib1325": ["libs/lib1325/src/index.ts"],
+      "@ng-bundler-benchmark/lib1326": ["libs/lib1326/src/index.ts"],
+      "@ng-bundler-benchmark/lib1327": ["libs/lib1327/src/index.ts"],
+      "@ng-bundler-benchmark/lib1328": ["libs/lib1328/src/index.ts"],
+      "@ng-bundler-benchmark/lib1329": ["libs/lib1329/src/index.ts"],
+      "@ng-bundler-benchmark/lib133": ["libs/lib133/src/index.ts"],
+      "@ng-bundler-benchmark/lib1330": ["libs/lib1330/src/index.ts"],
+      "@ng-bundler-benchmark/lib1331": ["libs/lib1331/src/index.ts"],
+      "@ng-bundler-benchmark/lib1332": ["libs/lib1332/src/index.ts"],
+      "@ng-bundler-benchmark/lib1333": ["libs/lib1333/src/index.ts"],
+      "@ng-bundler-benchmark/lib1334": ["libs/lib1334/src/index.ts"],
+      "@ng-bundler-benchmark/lib1335": ["libs/lib1335/src/index.ts"],
+      "@ng-bundler-benchmark/lib1336": ["libs/lib1336/src/index.ts"],
+      "@ng-bundler-benchmark/lib1337": ["libs/lib1337/src/index.ts"],
+      "@ng-bundler-benchmark/lib1338": ["libs/lib1338/src/index.ts"],
+      "@ng-bundler-benchmark/lib1339": ["libs/lib1339/src/index.ts"],
+      "@ng-bundler-benchmark/lib134": ["libs/lib134/src/index.ts"],
+      "@ng-bundler-benchmark/lib1340": ["libs/lib1340/src/index.ts"],
+      "@ng-bundler-benchmark/lib1341": ["libs/lib1341/src/index.ts"],
+      "@ng-bundler-benchmark/lib1342": ["libs/lib1342/src/index.ts"],
+      "@ng-bundler-benchmark/lib1343": ["libs/lib1343/src/index.ts"],
+      "@ng-bundler-benchmark/lib1344": ["libs/lib1344/src/index.ts"],
+      "@ng-bundler-benchmark/lib1345": ["libs/lib1345/src/index.ts"],
+      "@ng-bundler-benchmark/lib1346": ["libs/lib1346/src/index.ts"],
+      "@ng-bundler-benchmark/lib1347": ["libs/lib1347/src/index.ts"],
+      "@ng-bundler-benchmark/lib1348": ["libs/lib1348/src/index.ts"],
+      "@ng-bundler-benchmark/lib1349": ["libs/lib1349/src/index.ts"],
+      "@ng-bundler-benchmark/lib135": ["libs/lib135/src/index.ts"],
+      "@ng-bundler-benchmark/lib1350": ["libs/lib1350/src/index.ts"],
+      "@ng-bundler-benchmark/lib1351": ["libs/lib1351/src/index.ts"],
+      "@ng-bundler-benchmark/lib1352": ["libs/lib1352/src/index.ts"],
+      "@ng-bundler-benchmark/lib1353": ["libs/lib1353/src/index.ts"],
+      "@ng-bundler-benchmark/lib1354": ["libs/lib1354/src/index.ts"],
+      "@ng-bundler-benchmark/lib1355": ["libs/lib1355/src/index.ts"],
+      "@ng-bundler-benchmark/lib1356": ["libs/lib1356/src/index.ts"],
+      "@ng-bundler-benchmark/lib1357": ["libs/lib1357/src/index.ts"],
+      "@ng-bundler-benchmark/lib1358": ["libs/lib1358/src/index.ts"],
+      "@ng-bundler-benchmark/lib1359": ["libs/lib1359/src/index.ts"],
+      "@ng-bundler-benchmark/lib136": ["libs/lib136/src/index.ts"],
+      "@ng-bundler-benchmark/lib1360": ["libs/lib1360/src/index.ts"],
+      "@ng-bundler-benchmark/lib1361": ["libs/lib1361/src/index.ts"],
+      "@ng-bundler-benchmark/lib1362": ["libs/lib1362/src/index.ts"],
+      "@ng-bundler-benchmark/lib1363": ["libs/lib1363/src/index.ts"],
+      "@ng-bundler-benchmark/lib1364": ["libs/lib1364/src/index.ts"],
+      "@ng-bundler-benchmark/lib1365": ["libs/lib1365/src/index.ts"],
+      "@ng-bundler-benchmark/lib1366": ["libs/lib1366/src/index.ts"],
+      "@ng-bundler-benchmark/lib1367": ["libs/lib1367/src/index.ts"],
+      "@ng-bundler-benchmark/lib1368": ["libs/lib1368/src/index.ts"],
+      "@ng-bundler-benchmark/lib1369": ["libs/lib1369/src/index.ts"],
+      "@ng-bundler-benchmark/lib137": ["libs/lib137/src/index.ts"],
+      "@ng-bundler-benchmark/lib1370": ["libs/lib1370/src/index.ts"],
+      "@ng-bundler-benchmark/lib1371": ["libs/lib1371/src/index.ts"],
+      "@ng-bundler-benchmark/lib1372": ["libs/lib1372/src/index.ts"],
+      "@ng-bundler-benchmark/lib1373": ["libs/lib1373/src/index.ts"],
+      "@ng-bundler-benchmark/lib1374": ["libs/lib1374/src/index.ts"],
+      "@ng-bundler-benchmark/lib1375": ["libs/lib1375/src/index.ts"],
+      "@ng-bundler-benchmark/lib1376": ["libs/lib1376/src/index.ts"],
+      "@ng-bundler-benchmark/lib1377": ["libs/lib1377/src/index.ts"],
+      "@ng-bundler-benchmark/lib1378": ["libs/lib1378/src/index.ts"],
+      "@ng-bundler-benchmark/lib1379": ["libs/lib1379/src/index.ts"],
+      "@ng-bundler-benchmark/lib138": ["libs/lib138/src/index.ts"],
+      "@ng-bundler-benchmark/lib1380": ["libs/lib1380/src/index.ts"],
+      "@ng-bundler-benchmark/lib1381": ["libs/lib1381/src/index.ts"],
+      "@ng-bundler-benchmark/lib1382": ["libs/lib1382/src/index.ts"],
+      "@ng-bundler-benchmark/lib1383": ["libs/lib1383/src/index.ts"],
+      "@ng-bundler-benchmark/lib1384": ["libs/lib1384/src/index.ts"],
+      "@ng-bundler-benchmark/lib1385": ["libs/lib1385/src/index.ts"],
+      "@ng-bundler-benchmark/lib1386": ["libs/lib1386/src/index.ts"],
+      "@ng-bundler-benchmark/lib1387": ["libs/lib1387/src/index.ts"],
+      "@ng-bundler-benchmark/lib1388": ["libs/lib1388/src/index.ts"],
+      "@ng-bundler-benchmark/lib1389": ["libs/lib1389/src/index.ts"],
+      "@ng-bundler-benchmark/lib139": ["libs/lib139/src/index.ts"],
+      "@ng-bundler-benchmark/lib1390": ["libs/lib1390/src/index.ts"],
+      "@ng-bundler-benchmark/lib1391": ["libs/lib1391/src/index.ts"],
+      "@ng-bundler-benchmark/lib1392": ["libs/lib1392/src/index.ts"],
+      "@ng-bundler-benchmark/lib1393": ["libs/lib1393/src/index.ts"],
+      "@ng-bundler-benchmark/lib1394": ["libs/lib1394/src/index.ts"],
+      "@ng-bundler-benchmark/lib1395": ["libs/lib1395/src/index.ts"],
+      "@ng-bundler-benchmark/lib1396": ["libs/lib1396/src/index.ts"],
+      "@ng-bundler-benchmark/lib1397": ["libs/lib1397/src/index.ts"],
+      "@ng-bundler-benchmark/lib1398": ["libs/lib1398/src/index.ts"],
+      "@ng-bundler-benchmark/lib1399": ["libs/lib1399/src/index.ts"],
+      "@ng-bundler-benchmark/lib14": ["libs/lib14/src/index.ts"],
+      "@ng-bundler-benchmark/lib140": ["libs/lib140/src/index.ts"],
+      "@ng-bundler-benchmark/lib1400": ["libs/lib1400/src/index.ts"],
+      "@ng-bundler-benchmark/lib1401": ["libs/lib1401/src/index.ts"],
+      "@ng-bundler-benchmark/lib1402": ["libs/lib1402/src/index.ts"],
+      "@ng-bundler-benchmark/lib1403": ["libs/lib1403/src/index.ts"],
+      "@ng-bundler-benchmark/lib1404": ["libs/lib1404/src/index.ts"],
+      "@ng-bundler-benchmark/lib1405": ["libs/lib1405/src/index.ts"],
+      "@ng-bundler-benchmark/lib1406": ["libs/lib1406/src/index.ts"],
+      "@ng-bundler-benchmark/lib141": ["libs/lib141/src/index.ts"],
+      "@ng-bundler-benchmark/lib142": ["libs/lib142/src/index.ts"],
+      "@ng-bundler-benchmark/lib143": ["libs/lib143/src/index.ts"],
+      "@ng-bundler-benchmark/lib144": ["libs/lib144/src/index.ts"],
+      "@ng-bundler-benchmark/lib145": ["libs/lib145/src/index.ts"],
+      "@ng-bundler-benchmark/lib146": ["libs/lib146/src/index.ts"],
+      "@ng-bundler-benchmark/lib147": ["libs/lib147/src/index.ts"],
+      "@ng-bundler-benchmark/lib148": ["libs/lib148/src/index.ts"],
+      "@ng-bundler-benchmark/lib149": ["libs/lib149/src/index.ts"],
+      "@ng-bundler-benchmark/lib15": ["libs/lib15/src/index.ts"],
+      "@ng-bundler-benchmark/lib150": ["libs/lib150/src/index.ts"],
+      "@ng-bundler-benchmark/lib151": ["libs/lib151/src/index.ts"],
+      "@ng-bundler-benchmark/lib152": ["libs/lib152/src/index.ts"],
+      "@ng-bundler-benchmark/lib153": ["libs/lib153/src/index.ts"],
+      "@ng-bundler-benchmark/lib154": ["libs/lib154/src/index.ts"],
+      "@ng-bundler-benchmark/lib155": ["libs/lib155/src/index.ts"],
+      "@ng-bundler-benchmark/lib156": ["libs/lib156/src/index.ts"],
+      "@ng-bundler-benchmark/lib157": ["libs/lib157/src/index.ts"],
+      "@ng-bundler-benchmark/lib158": ["libs/lib158/src/index.ts"],
+      "@ng-bundler-benchmark/lib159": ["libs/lib159/src/index.ts"],
+      "@ng-bundler-benchmark/lib16": ["libs/lib16/src/index.ts"],
+      "@ng-bundler-benchmark/lib160": ["libs/lib160/src/index.ts"],
+      "@ng-bundler-benchmark/lib161": ["libs/lib161/src/index.ts"],
+      "@ng-bundler-benchmark/lib162": ["libs/lib162/src/index.ts"],
+      "@ng-bundler-benchmark/lib163": ["libs/lib163/src/index.ts"],
+      "@ng-bundler-benchmark/lib164": ["libs/lib164/src/index.ts"],
+      "@ng-bundler-benchmark/lib165": ["libs/lib165/src/index.ts"],
+      "@ng-bundler-benchmark/lib166": ["libs/lib166/src/index.ts"],
+      "@ng-bundler-benchmark/lib167": ["libs/lib167/src/index.ts"],
+      "@ng-bundler-benchmark/lib168": ["libs/lib168/src/index.ts"],
+      "@ng-bundler-benchmark/lib169": ["libs/lib169/src/index.ts"],
+      "@ng-bundler-benchmark/lib17": ["libs/lib17/src/index.ts"],
+      "@ng-bundler-benchmark/lib170": ["libs/lib170/src/index.ts"],
+      "@ng-bundler-benchmark/lib171": ["libs/lib171/src/index.ts"],
+      "@ng-bundler-benchmark/lib172": ["libs/lib172/src/index.ts"],
+      "@ng-bundler-benchmark/lib173": ["libs/lib173/src/index.ts"],
+      "@ng-bundler-benchmark/lib174": ["libs/lib174/src/index.ts"],
+      "@ng-bundler-benchmark/lib175": ["libs/lib175/src/index.ts"],
+      "@ng-bundler-benchmark/lib176": ["libs/lib176/src/index.ts"],
+      "@ng-bundler-benchmark/lib177": ["libs/lib177/src/index.ts"],
+      "@ng-bundler-benchmark/lib178": ["libs/lib178/src/index.ts"],
+      "@ng-bundler-benchmark/lib179": ["libs/lib179/src/index.ts"],
+      "@ng-bundler-benchmark/lib18": ["libs/lib18/src/index.ts"],
+      "@ng-bundler-benchmark/lib180": ["libs/lib180/src/index.ts"],
+      "@ng-bundler-benchmark/lib181": ["libs/lib181/src/index.ts"],
+      "@ng-bundler-benchmark/lib182": ["libs/lib182/src/index.ts"],
+      "@ng-bundler-benchmark/lib183": ["libs/lib183/src/index.ts"],
+      "@ng-bundler-benchmark/lib184": ["libs/lib184/src/index.ts"],
+      "@ng-bundler-benchmark/lib185": ["libs/lib185/src/index.ts"],
+      "@ng-bundler-benchmark/lib186": ["libs/lib186/src/index.ts"],
+      "@ng-bundler-benchmark/lib187": ["libs/lib187/src/index.ts"],
+      "@ng-bundler-benchmark/lib188": ["libs/lib188/src/index.ts"],
+      "@ng-bundler-benchmark/lib189": ["libs/lib189/src/index.ts"],
+      "@ng-bundler-benchmark/lib19": ["libs/lib19/src/index.ts"],
+      "@ng-bundler-benchmark/lib190": ["libs/lib190/src/index.ts"],
+      "@ng-bundler-benchmark/lib191": ["libs/lib191/src/index.ts"],
+      "@ng-bundler-benchmark/lib192": ["libs/lib192/src/index.ts"],
+      "@ng-bundler-benchmark/lib193": ["libs/lib193/src/index.ts"],
+      "@ng-bundler-benchmark/lib194": ["libs/lib194/src/index.ts"],
+      "@ng-bundler-benchmark/lib195": ["libs/lib195/src/index.ts"],
+      "@ng-bundler-benchmark/lib196": ["libs/lib196/src/index.ts"],
+      "@ng-bundler-benchmark/lib197": ["libs/lib197/src/index.ts"],
+      "@ng-bundler-benchmark/lib198": ["libs/lib198/src/index.ts"],
+      "@ng-bundler-benchmark/lib199": ["libs/lib199/src/index.ts"],
+      "@ng-bundler-benchmark/lib2": ["libs/lib2/src/index.ts"],
+      "@ng-bundler-benchmark/lib20": ["libs/lib20/src/index.ts"],
+      "@ng-bundler-benchmark/lib200": ["libs/lib200/src/index.ts"],
+      "@ng-bundler-benchmark/lib201": ["libs/lib201/src/index.ts"],
+      "@ng-bundler-benchmark/lib202": ["libs/lib202/src/index.ts"],
+      "@ng-bundler-benchmark/lib203": ["libs/lib203/src/index.ts"],
+      "@ng-bundler-benchmark/lib204": ["libs/lib204/src/index.ts"],
+      "@ng-bundler-benchmark/lib205": ["libs/lib205/src/index.ts"],
+      "@ng-bundler-benchmark/lib206": ["libs/lib206/src/index.ts"],
+      "@ng-bundler-benchmark/lib207": ["libs/lib207/src/index.ts"],
+      "@ng-bundler-benchmark/lib208": ["libs/lib208/src/index.ts"],
+      "@ng-bundler-benchmark/lib209": ["libs/lib209/src/index.ts"],
+      "@ng-bundler-benchmark/lib21": ["libs/lib21/src/index.ts"],
+      "@ng-bundler-benchmark/lib210": ["libs/lib210/src/index.ts"],
+      "@ng-bundler-benchmark/lib211": ["libs/lib211/src/index.ts"],
+      "@ng-bundler-benchmark/lib212": ["libs/lib212/src/index.ts"],
+      "@ng-bundler-benchmark/lib213": ["libs/lib213/src/index.ts"],
+      "@ng-bundler-benchmark/lib214": ["libs/lib214/src/index.ts"],
+      "@ng-bundler-benchmark/lib215": ["libs/lib215/src/index.ts"],
+      "@ng-bundler-benchmark/lib216": ["libs/lib216/src/index.ts"],
+      "@ng-bundler-benchmark/lib217": ["libs/lib217/src/index.ts"],
+      "@ng-bundler-benchmark/lib218": ["libs/lib218/src/index.ts"],
+      "@ng-bundler-benchmark/lib219": ["libs/lib219/src/index.ts"],
+      "@ng-bundler-benchmark/lib22": ["libs/lib22/src/index.ts"],
+      "@ng-bundler-benchmark/lib220": ["libs/lib220/src/index.ts"],
+      "@ng-bundler-benchmark/lib221": ["libs/lib221/src/index.ts"],
+      "@ng-bundler-benchmark/lib222": ["libs/lib222/src/index.ts"],
+      "@ng-bundler-benchmark/lib223": ["libs/lib223/src/index.ts"],
+      "@ng-bundler-benchmark/lib224": ["libs/lib224/src/index.ts"],
+      "@ng-bundler-benchmark/lib225": ["libs/lib225/src/index.ts"],
+      "@ng-bundler-benchmark/lib226": ["libs/lib226/src/index.ts"],
+      "@ng-bundler-benchmark/lib227": ["libs/lib227/src/index.ts"],
+      "@ng-bundler-benchmark/lib228": ["libs/lib228/src/index.ts"],
+      "@ng-bundler-benchmark/lib229": ["libs/lib229/src/index.ts"],
+      "@ng-bundler-benchmark/lib23": ["libs/lib23/src/index.ts"],
+      "@ng-bundler-benchmark/lib230": ["libs/lib230/src/index.ts"],
+      "@ng-bundler-benchmark/lib231": ["libs/lib231/src/index.ts"],
+      "@ng-bundler-benchmark/lib232": ["libs/lib232/src/index.ts"],
+      "@ng-bundler-benchmark/lib233": ["libs/lib233/src/index.ts"],
+      "@ng-bundler-benchmark/lib234": ["libs/lib234/src/index.ts"],
+      "@ng-bundler-benchmark/lib235": ["libs/lib235/src/index.ts"],
+      "@ng-bundler-benchmark/lib236": ["libs/lib236/src/index.ts"],
+      "@ng-bundler-benchmark/lib237": ["libs/lib237/src/index.ts"],
+      "@ng-bundler-benchmark/lib238": ["libs/lib238/src/index.ts"],
+      "@ng-bundler-benchmark/lib239": ["libs/lib239/src/index.ts"],
+      "@ng-bundler-benchmark/lib24": ["libs/lib24/src/index.ts"],
+      "@ng-bundler-benchmark/lib240": ["libs/lib240/src/index.ts"],
+      "@ng-bundler-benchmark/lib241": ["libs/lib241/src/index.ts"],
+      "@ng-bundler-benchmark/lib242": ["libs/lib242/src/index.ts"],
+      "@ng-bundler-benchmark/lib243": ["libs/lib243/src/index.ts"],
+      "@ng-bundler-benchmark/lib244": ["libs/lib244/src/index.ts"],
+      "@ng-bundler-benchmark/lib245": ["libs/lib245/src/index.ts"],
+      "@ng-bundler-benchmark/lib246": ["libs/lib246/src/index.ts"],
+      "@ng-bundler-benchmark/lib247": ["libs/lib247/src/index.ts"],
+      "@ng-bundler-benchmark/lib248": ["libs/lib248/src/index.ts"],
+      "@ng-bundler-benchmark/lib249": ["libs/lib249/src/index.ts"],
+      "@ng-bundler-benchmark/lib25": ["libs/lib25/src/index.ts"],
+      "@ng-bundler-benchmark/lib250": ["libs/lib250/src/index.ts"],
+      "@ng-bundler-benchmark/lib251": ["libs/lib251/src/index.ts"],
+      "@ng-bundler-benchmark/lib252": ["libs/lib252/src/index.ts"],
+      "@ng-bundler-benchmark/lib253": ["libs/lib253/src/index.ts"],
+      "@ng-bundler-benchmark/lib254": ["libs/lib254/src/index.ts"],
+      "@ng-bundler-benchmark/lib255": ["libs/lib255/src/index.ts"],
+      "@ng-bundler-benchmark/lib256": ["libs/lib256/src/index.ts"],
+      "@ng-bundler-benchmark/lib257": ["libs/lib257/src/index.ts"],
+      "@ng-bundler-benchmark/lib258": ["libs/lib258/src/index.ts"],
+      "@ng-bundler-benchmark/lib259": ["libs/lib259/src/index.ts"],
+      "@ng-bundler-benchmark/lib26": ["libs/lib26/src/index.ts"],
+      "@ng-bundler-benchmark/lib260": ["libs/lib260/src/index.ts"],
+      "@ng-bundler-benchmark/lib261": ["libs/lib261/src/index.ts"],
+      "@ng-bundler-benchmark/lib262": ["libs/lib262/src/index.ts"],
+      "@ng-bundler-benchmark/lib263": ["libs/lib263/src/index.ts"],
+      "@ng-bundler-benchmark/lib264": ["libs/lib264/src/index.ts"],
+      "@ng-bundler-benchmark/lib265": ["libs/lib265/src/index.ts"],
+      "@ng-bundler-benchmark/lib266": ["libs/lib266/src/index.ts"],
+      "@ng-bundler-benchmark/lib267": ["libs/lib267/src/index.ts"],
+      "@ng-bundler-benchmark/lib268": ["libs/lib268/src/index.ts"],
+      "@ng-bundler-benchmark/lib269": ["libs/lib269/src/index.ts"],
+      "@ng-bundler-benchmark/lib27": ["libs/lib27/src/index.ts"],
+      "@ng-bundler-benchmark/lib270": ["libs/lib270/src/index.ts"],
+      "@ng-bundler-benchmark/lib271": ["libs/lib271/src/index.ts"],
+      "@ng-bundler-benchmark/lib272": ["libs/lib272/src/index.ts"],
+      "@ng-bundler-benchmark/lib273": ["libs/lib273/src/index.ts"],
+      "@ng-bundler-benchmark/lib274": ["libs/lib274/src/index.ts"],
+      "@ng-bundler-benchmark/lib275": ["libs/lib275/src/index.ts"],
+      "@ng-bundler-benchmark/lib276": ["libs/lib276/src/index.ts"],
+      "@ng-bundler-benchmark/lib277": ["libs/lib277/src/index.ts"],
+      "@ng-bundler-benchmark/lib278": ["libs/lib278/src/index.ts"],
+      "@ng-bundler-benchmark/lib279": ["libs/lib279/src/index.ts"],
+      "@ng-bundler-benchmark/lib28": ["libs/lib28/src/index.ts"],
+      "@ng-bundler-benchmark/lib280": ["libs/lib280/src/index.ts"],
+      "@ng-bundler-benchmark/lib281": ["libs/lib281/src/index.ts"],
+      "@ng-bundler-benchmark/lib282": ["libs/lib282/src/index.ts"],
+      "@ng-bundler-benchmark/lib283": ["libs/lib283/src/index.ts"],
+      "@ng-bundler-benchmark/lib284": ["libs/lib284/src/index.ts"],
+      "@ng-bundler-benchmark/lib285": ["libs/lib285/src/index.ts"],
+      "@ng-bundler-benchmark/lib286": ["libs/lib286/src/index.ts"],
+      "@ng-bundler-benchmark/lib287": ["libs/lib287/src/index.ts"],
+      "@ng-bundler-benchmark/lib288": ["libs/lib288/src/index.ts"],
+      "@ng-bundler-benchmark/lib289": ["libs/lib289/src/index.ts"],
+      "@ng-bundler-benchmark/lib29": ["libs/lib29/src/index.ts"],
+      "@ng-bundler-benchmark/lib290": ["libs/lib290/src/index.ts"],
+      "@ng-bundler-benchmark/lib291": ["libs/lib291/src/index.ts"],
+      "@ng-bundler-benchmark/lib292": ["libs/lib292/src/index.ts"],
+      "@ng-bundler-benchmark/lib293": ["libs/lib293/src/index.ts"],
+      "@ng-bundler-benchmark/lib294": ["libs/lib294/src/index.ts"],
+      "@ng-bundler-benchmark/lib295": ["libs/lib295/src/index.ts"],
+      "@ng-bundler-benchmark/lib296": ["libs/lib296/src/index.ts"],
+      "@ng-bundler-benchmark/lib297": ["libs/lib297/src/index.ts"],
+      "@ng-bundler-benchmark/lib298": ["libs/lib298/src/index.ts"],
+      "@ng-bundler-benchmark/lib299": ["libs/lib299/src/index.ts"],
+      "@ng-bundler-benchmark/lib3": ["libs/lib3/src/index.ts"],
+      "@ng-bundler-benchmark/lib30": ["libs/lib30/src/index.ts"],
+      "@ng-bundler-benchmark/lib300": ["libs/lib300/src/index.ts"],
+      "@ng-bundler-benchmark/lib301": ["libs/lib301/src/index.ts"],
+      "@ng-bundler-benchmark/lib302": ["libs/lib302/src/index.ts"],
+      "@ng-bundler-benchmark/lib303": ["libs/lib303/src/index.ts"],
+      "@ng-bundler-benchmark/lib304": ["libs/lib304/src/index.ts"],
+      "@ng-bundler-benchmark/lib305": ["libs/lib305/src/index.ts"],
+      "@ng-bundler-benchmark/lib306": ["libs/lib306/src/index.ts"],
+      "@ng-bundler-benchmark/lib307": ["libs/lib307/src/index.ts"],
+      "@ng-bundler-benchmark/lib308": ["libs/lib308/src/index.ts"],
+      "@ng-bundler-benchmark/lib309": ["libs/lib309/src/index.ts"],
+      "@ng-bundler-benchmark/lib31": ["libs/lib31/src/index.ts"],
+      "@ng-bundler-benchmark/lib310": ["libs/lib310/src/index.ts"],
+      "@ng-bundler-benchmark/lib311": ["libs/lib311/src/index.ts"],
+      "@ng-bundler-benchmark/lib312": ["libs/lib312/src/index.ts"],
+      "@ng-bundler-benchmark/lib313": ["libs/lib313/src/index.ts"],
+      "@ng-bundler-benchmark/lib314": ["libs/lib314/src/index.ts"],
+      "@ng-bundler-benchmark/lib315": ["libs/lib315/src/index.ts"],
+      "@ng-bundler-benchmark/lib316": ["libs/lib316/src/index.ts"],
+      "@ng-bundler-benchmark/lib317": ["libs/lib317/src/index.ts"],
+      "@ng-bundler-benchmark/lib318": ["libs/lib318/src/index.ts"],
+      "@ng-bundler-benchmark/lib319": ["libs/lib319/src/index.ts"],
+      "@ng-bundler-benchmark/lib32": ["libs/lib32/src/index.ts"],
+      "@ng-bundler-benchmark/lib320": ["libs/lib320/src/index.ts"],
+      "@ng-bundler-benchmark/lib321": ["libs/lib321/src/index.ts"],
+      "@ng-bundler-benchmark/lib322": ["libs/lib322/src/index.ts"],
+      "@ng-bundler-benchmark/lib323": ["libs/lib323/src/index.ts"],
+      "@ng-bundler-benchmark/lib324": ["libs/lib324/src/index.ts"],
+      "@ng-bundler-benchmark/lib325": ["libs/lib325/src/index.ts"],
+      "@ng-bundler-benchmark/lib326": ["libs/lib326/src/index.ts"],
+      "@ng-bundler-benchmark/lib327": ["libs/lib327/src/index.ts"],
+      "@ng-bundler-benchmark/lib328": ["libs/lib328/src/index.ts"],
+      "@ng-bundler-benchmark/lib329": ["libs/lib329/src/index.ts"],
+      "@ng-bundler-benchmark/lib33": ["libs/lib33/src/index.ts"],
+      "@ng-bundler-benchmark/lib330": ["libs/lib330/src/index.ts"],
+      "@ng-bundler-benchmark/lib331": ["libs/lib331/src/index.ts"],
+      "@ng-bundler-benchmark/lib332": ["libs/lib332/src/index.ts"],
+      "@ng-bundler-benchmark/lib333": ["libs/lib333/src/index.ts"],
+      "@ng-bundler-benchmark/lib334": ["libs/lib334/src/index.ts"],
+      "@ng-bundler-benchmark/lib335": ["libs/lib335/src/index.ts"],
+      "@ng-bundler-benchmark/lib336": ["libs/lib336/src/index.ts"],
+      "@ng-bundler-benchmark/lib337": ["libs/lib337/src/index.ts"],
+      "@ng-bundler-benchmark/lib338": ["libs/lib338/src/index.ts"],
+      "@ng-bundler-benchmark/lib339": ["libs/lib339/src/index.ts"],
+      "@ng-bundler-benchmark/lib34": ["libs/lib34/src/index.ts"],
+      "@ng-bundler-benchmark/lib340": ["libs/lib340/src/index.ts"],
+      "@ng-bundler-benchmark/lib341": ["libs/lib341/src/index.ts"],
+      "@ng-bundler-benchmark/lib342": ["libs/lib342/src/index.ts"],
+      "@ng-bundler-benchmark/lib343": ["libs/lib343/src/index.ts"],
+      "@ng-bundler-benchmark/lib344": ["libs/lib344/src/index.ts"],
+      "@ng-bundler-benchmark/lib345": ["libs/lib345/src/index.ts"],
+      "@ng-bundler-benchmark/lib346": ["libs/lib346/src/index.ts"],
+      "@ng-bundler-benchmark/lib347": ["libs/lib347/src/index.ts"],
+      "@ng-bundler-benchmark/lib348": ["libs/lib348/src/index.ts"],
+      "@ng-bundler-benchmark/lib349": ["libs/lib349/src/index.ts"],
+      "@ng-bundler-benchmark/lib35": ["libs/lib35/src/index.ts"],
+      "@ng-bundler-benchmark/lib350": ["libs/lib350/src/index.ts"],
+      "@ng-bundler-benchmark/lib351": ["libs/lib351/src/index.ts"],
+      "@ng-bundler-benchmark/lib352": ["libs/lib352/src/index.ts"],
+      "@ng-bundler-benchmark/lib353": ["libs/lib353/src/index.ts"],
+      "@ng-bundler-benchmark/lib354": ["libs/lib354/src/index.ts"],
+      "@ng-bundler-benchmark/lib355": ["libs/lib355/src/index.ts"],
+      "@ng-bundler-benchmark/lib356": ["libs/lib356/src/index.ts"],
+      "@ng-bundler-benchmark/lib357": ["libs/lib357/src/index.ts"],
+      "@ng-bundler-benchmark/lib358": ["libs/lib358/src/index.ts"],
+      "@ng-bundler-benchmark/lib359": ["libs/lib359/src/index.ts"],
+      "@ng-bundler-benchmark/lib36": ["libs/lib36/src/index.ts"],
+      "@ng-bundler-benchmark/lib360": ["libs/lib360/src/index.ts"],
+      "@ng-bundler-benchmark/lib361": ["libs/lib361/src/index.ts"],
+      "@ng-bundler-benchmark/lib362": ["libs/lib362/src/index.ts"],
+      "@ng-bundler-benchmark/lib363": ["libs/lib363/src/index.ts"],
+      "@ng-bundler-benchmark/lib364": ["libs/lib364/src/index.ts"],
+      "@ng-bundler-benchmark/lib365": ["libs/lib365/src/index.ts"],
+      "@ng-bundler-benchmark/lib366": ["libs/lib366/src/index.ts"],
+      "@ng-bundler-benchmark/lib367": ["libs/lib367/src/index.ts"],
+      "@ng-bundler-benchmark/lib368": ["libs/lib368/src/index.ts"],
+      "@ng-bundler-benchmark/lib369": ["libs/lib369/src/index.ts"],
+      "@ng-bundler-benchmark/lib37": ["libs/lib37/src/index.ts"],
+      "@ng-bundler-benchmark/lib370": ["libs/lib370/src/index.ts"],
+      "@ng-bundler-benchmark/lib371": ["libs/lib371/src/index.ts"],
+      "@ng-bundler-benchmark/lib372": ["libs/lib372/src/index.ts"],
+      "@ng-bundler-benchmark/lib373": ["libs/lib373/src/index.ts"],
+      "@ng-bundler-benchmark/lib374": ["libs/lib374/src/index.ts"],
+      "@ng-bundler-benchmark/lib375": ["libs/lib375/src/index.ts"],
+      "@ng-bundler-benchmark/lib376": ["libs/lib376/src/index.ts"],
+      "@ng-bundler-benchmark/lib377": ["libs/lib377/src/index.ts"],
+      "@ng-bundler-benchmark/lib378": ["libs/lib378/src/index.ts"],
+      "@ng-bundler-benchmark/lib379": ["libs/lib379/src/index.ts"],
+      "@ng-bundler-benchmark/lib38": ["libs/lib38/src/index.ts"],
+      "@ng-bundler-benchmark/lib380": ["libs/lib380/src/index.ts"],
+      "@ng-bundler-benchmark/lib381": ["libs/lib381/src/index.ts"],
+      "@ng-bundler-benchmark/lib382": ["libs/lib382/src/index.ts"],
+      "@ng-bundler-benchmark/lib383": ["libs/lib383/src/index.ts"],
+      "@ng-bundler-benchmark/lib384": ["libs/lib384/src/index.ts"],
+      "@ng-bundler-benchmark/lib385": ["libs/lib385/src/index.ts"],
+      "@ng-bundler-benchmark/lib386": ["libs/lib386/src/index.ts"],
+      "@ng-bundler-benchmark/lib387": ["libs/lib387/src/index.ts"],
+      "@ng-bundler-benchmark/lib388": ["libs/lib388/src/index.ts"],
+      "@ng-bundler-benchmark/lib389": ["libs/lib389/src/index.ts"],
+      "@ng-bundler-benchmark/lib39": ["libs/lib39/src/index.ts"],
+      "@ng-bundler-benchmark/lib390": ["libs/lib390/src/index.ts"],
+      "@ng-bundler-benchmark/lib391": ["libs/lib391/src/index.ts"],
+      "@ng-bundler-benchmark/lib392": ["libs/lib392/src/index.ts"],
+      "@ng-bundler-benchmark/lib393": ["libs/lib393/src/index.ts"],
+      "@ng-bundler-benchmark/lib394": ["libs/lib394/src/index.ts"],
+      "@ng-bundler-benchmark/lib395": ["libs/lib395/src/index.ts"],
+      "@ng-bundler-benchmark/lib396": ["libs/lib396/src/index.ts"],
+      "@ng-bundler-benchmark/lib397": ["libs/lib397/src/index.ts"],
+      "@ng-bundler-benchmark/lib398": ["libs/lib398/src/index.ts"],
+      "@ng-bundler-benchmark/lib399": ["libs/lib399/src/index.ts"],
+      "@ng-bundler-benchmark/lib4": ["libs/lib4/src/index.ts"],
+      "@ng-bundler-benchmark/lib40": ["libs/lib40/src/index.ts"],
+      "@ng-bundler-benchmark/lib400": ["libs/lib400/src/index.ts"],
+      "@ng-bundler-benchmark/lib401": ["libs/lib401/src/index.ts"],
+      "@ng-bundler-benchmark/lib402": ["libs/lib402/src/index.ts"],
+      "@ng-bundler-benchmark/lib403": ["libs/lib403/src/index.ts"],
+      "@ng-bundler-benchmark/lib404": ["libs/lib404/src/index.ts"],
+      "@ng-bundler-benchmark/lib405": ["libs/lib405/src/index.ts"],
+      "@ng-bundler-benchmark/lib406": ["libs/lib406/src/index.ts"],
+      "@ng-bundler-benchmark/lib41": ["libs/lib41/src/index.ts"],
+      "@ng-bundler-benchmark/lib42": ["libs/lib42/src/index.ts"],
+      "@ng-bundler-benchmark/lib43": ["libs/lib43/src/index.ts"],
+      "@ng-bundler-benchmark/lib44": ["libs/lib44/src/index.ts"],
+      "@ng-bundler-benchmark/lib45": ["libs/lib45/src/index.ts"],
+      "@ng-bundler-benchmark/lib46": ["libs/lib46/src/index.ts"],
+      "@ng-bundler-benchmark/lib47": ["libs/lib47/src/index.ts"],
+      "@ng-bundler-benchmark/lib48": ["libs/lib48/src/index.ts"],
+      "@ng-bundler-benchmark/lib49": ["libs/lib49/src/index.ts"],
+      "@ng-bundler-benchmark/lib5": ["libs/lib5/src/index.ts"],
+      "@ng-bundler-benchmark/lib50": ["libs/lib50/src/index.ts"],
+      "@ng-bundler-benchmark/lib51": ["libs/lib51/src/index.ts"],
+      "@ng-bundler-benchmark/lib52": ["libs/lib52/src/index.ts"],
+      "@ng-bundler-benchmark/lib53": ["libs/lib53/src/index.ts"],
+      "@ng-bundler-benchmark/lib54": ["libs/lib54/src/index.ts"],
+      "@ng-bundler-benchmark/lib55": ["libs/lib55/src/index.ts"],
+      "@ng-bundler-benchmark/lib56": ["libs/lib56/src/index.ts"],
+      "@ng-bundler-benchmark/lib57": ["libs/lib57/src/index.ts"],
+      "@ng-bundler-benchmark/lib58": ["libs/lib58/src/index.ts"],
+      "@ng-bundler-benchmark/lib59": ["libs/lib59/src/index.ts"],
+      "@ng-bundler-benchmark/lib6": ["libs/lib6/src/index.ts"],
+      "@ng-bundler-benchmark/lib60": ["libs/lib60/src/index.ts"],
+      "@ng-bundler-benchmark/lib61": ["libs/lib61/src/index.ts"],
+      "@ng-bundler-benchmark/lib62": ["libs/lib62/src/index.ts"],
+      "@ng-bundler-benchmark/lib63": ["libs/lib63/src/index.ts"],
+      "@ng-bundler-benchmark/lib64": ["libs/lib64/src/index.ts"],
+      "@ng-bundler-benchmark/lib65": ["libs/lib65/src/index.ts"],
+      "@ng-bundler-benchmark/lib66": ["libs/lib66/src/index.ts"],
+      "@ng-bundler-benchmark/lib67": ["libs/lib67/src/index.ts"],
+      "@ng-bundler-benchmark/lib68": ["libs/lib68/src/index.ts"],
+      "@ng-bundler-benchmark/lib69": ["libs/lib69/src/index.ts"],
+      "@ng-bundler-benchmark/lib7": ["libs/lib7/src/index.ts"],
+      "@ng-bundler-benchmark/lib70": ["libs/lib70/src/index.ts"],
+      "@ng-bundler-benchmark/lib71": ["libs/lib71/src/index.ts"],
+      "@ng-bundler-benchmark/lib72": ["libs/lib72/src/index.ts"],
+      "@ng-bundler-benchmark/lib73": ["libs/lib73/src/index.ts"],
+      "@ng-bundler-benchmark/lib74": ["libs/lib74/src/index.ts"],
+      "@ng-bundler-benchmark/lib75": ["libs/lib75/src/index.ts"],
+      "@ng-bundler-benchmark/lib76": ["libs/lib76/src/index.ts"],
+      "@ng-bundler-benchmark/lib77": ["libs/lib77/src/index.ts"],
+      "@ng-bundler-benchmark/lib78": ["libs/lib78/src/index.ts"],
+      "@ng-bundler-benchmark/lib79": ["libs/lib79/src/index.ts"],
+      "@ng-bundler-benchmark/lib8": ["libs/lib8/src/index.ts"],
+      "@ng-bundler-benchmark/lib80": ["libs/lib80/src/index.ts"],
+      "@ng-bundler-benchmark/lib81": ["libs/lib81/src/index.ts"],
+      "@ng-bundler-benchmark/lib82": ["libs/lib82/src/index.ts"],
+      "@ng-bundler-benchmark/lib83": ["libs/lib83/src/index.ts"],
+      "@ng-bundler-benchmark/lib84": ["libs/lib84/src/index.ts"],
+      "@ng-bundler-benchmark/lib85": ["libs/lib85/src/index.ts"],
+      "@ng-bundler-benchmark/lib86": ["libs/lib86/src/index.ts"],
+      "@ng-bundler-benchmark/lib87": ["libs/lib87/src/index.ts"],
+      "@ng-bundler-benchmark/lib88": ["libs/lib88/src/index.ts"],
+      "@ng-bundler-benchmark/lib89": ["libs/lib89/src/index.ts"],
+      "@ng-bundler-benchmark/lib9": ["libs/lib9/src/index.ts"],
+      "@ng-bundler-benchmark/lib90": ["libs/lib90/src/index.ts"],
+      "@ng-bundler-benchmark/lib91": ["libs/lib91/src/index.ts"],
+      "@ng-bundler-benchmark/lib92": ["libs/lib92/src/index.ts"],
+      "@ng-bundler-benchmark/lib93": ["libs/lib93/src/index.ts"],
+      "@ng-bundler-benchmark/lib94": ["libs/lib94/src/index.ts"],
+      "@ng-bundler-benchmark/lib95": ["libs/lib95/src/index.ts"],
+      "@ng-bundler-benchmark/lib96": ["libs/lib96/src/index.ts"],
+      "@ng-bundler-benchmark/lib97": ["libs/lib97/src/index.ts"],
+      "@ng-bundler-benchmark/lib98": ["libs/lib98/src/index.ts"],
+      "@ng-bundler-benchmark/lib99": ["libs/lib99/src/index.ts"],
+      "@ng-bundler-benchmark/libentry": ["libs/libentry/src/index.ts"],
+      "@ng-bundler-benchmark/libentry2": ["libs/libentry2/src/index.ts"],
+      "@ng-bundler-benchmark/libentry3": ["libs/libentry3/src/index.ts"],
+      "@ng-bundler-benchmark/libentry4": ["libs/libentry4/src/index.ts"]
     }
   },
-  "exclude": [
-    "node_modules",
-    "tmp"
-  ]
+  "exclude": ["node_modules", "tmp"]
 }
