@@ -11,9 +11,9 @@ The application consists of ~800 lazy loaded routes with ~10 components each - t
 
 ## System Info
 
-MacBook Pro (macOS 15.3.1)
-Processor: M2 Max
-Memory: 96 GB
+- MacBook Pro (macOS 15.3.1)
+- Processor: M2 Max
+- Memory: 96 GB
 
 ## Results
 
