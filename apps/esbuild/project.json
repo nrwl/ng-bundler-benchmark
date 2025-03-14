@@ -6,21 +6,18 @@
   "sourceRoot": "apps/esbuild/src",
   "tags": [],
   "targets": {
-    "browser-rspack": {
+    "build-rspack": {
       "command": "npx rspack build",
       "options": {
         "cwd": "apps/esbuild"
+      },
+      "configurations": {
+        "development": {
+          "env": {
+            "NGRS_CONFIG": "development"
+          }
+        }
       }
-    },
-    "server-rspack": {
-      "command": "npx rspack build --config rspack.server.config.js",
-      "options": {
-        "cwd": "apps/esbuild"
-      }
-    },
-    "build-rspack": {
-      "dependsOn": ["browser-rspack", "server-rspack"],
-      "command": "echo Rspack Build Completed"
     },
     "build-webpack": {
       "dependsOn": ["browser-webpack", "server-webpack"],
@@ -30,6 +27,13 @@
       "command": "npx rsbuild build",
       "options": {
         "cwd": "apps/esbuild"
+      },
+      "configurations": {
+        "development": {
+          "env": {
+            "NGRS_CONFIG": "development"
+          }
+        }
       }
     },
     "build-esbuild": {

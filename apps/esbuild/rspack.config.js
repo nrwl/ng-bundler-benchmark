@@ -1,13 +1,32 @@
-const {createConfig} = require("@ng-rspack/build/rspack");
+const { createConfig } = require('@nx/angular-rspack');
 
-module.exports = createConfig({
-  root: __dirname,
-  outputPath: "dist/browser",
-  name: 'esbuild',
-  main: './src/main.ts',
-  index: './src/index.html',
-  tsConfig: './tsconfig.app.json',
-  styles: ["./src/styles.css"],
-  polyfills: ["zone.js"],
-  assets: ["./public"],
-});
+module.exports = () =>
+  createConfig(
+    {
+      options: {
+        root: __dirname,
+        index: './src/index.html',
+        browser: './src/main.ts',
+        polyfills: ['zone.js'],
+        tsConfig: './tsconfig.app.json',
+        assets: [
+          {
+            glob: '**/*',
+            input: './public',
+          },
+        ],
+        styles: ['./src/styles.css'],
+        server: './src/main.server.ts',
+        ssr: { entry: './src/server.ts' },
+      },
+    },
+    {
+      development: {
+        options: {
+          optimization: false,
+          extractLicenses: false,
+          sourceMap: true,
+        },
+      },
+    }
+  );
