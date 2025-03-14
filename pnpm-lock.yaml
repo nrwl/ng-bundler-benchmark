@@ -39,11 +39,11 @@ importers:
         specifier: 19.2.3
         version: 19.2.3(hj35ci6ixth5fk2bst3vrnseqe)
       '@nx/angular-rsbuild':
-        specifier: ^20.6.0-beta.1
-        version: 20.6.0-beta.1(ousu5qolgnncvwglrhb6ckapp4)
+        specifier: ^20.6.1
+        version: 20.6.1(ousu5qolgnncvwglrhb6ckapp4)
       '@nx/angular-rspack':
-        specifier: ^20.6.0-beta.1
-        version: 20.6.0-beta.1(qzmw24mupegnvocx7bxhhnp6ry)
+        specifier: ^20.6.1
+        version: 20.6.1(qzmw24mupegnvocx7bxhhnp6ry)
       express:
         specifier: ~4.18.2
         version: 4.18.3
@@ -1896,23 +1896,23 @@ packages:
     resolution: {integrity: sha512-cJXiUlycdizQwvqE1iaAb4VRUM3RX09/8q46zjvy+ct9GhfZRWd7jXYVc1tn/CfRlGPVkX/u4sstRlepsm7hfw==}
     engines: {node: ^18.17.0 || >=20.5.0}
 
-  '@nx/angular-rsbuild@20.6.0-beta.1':
-    resolution: {integrity: sha512-L10cjVJQX80lN1Gnau77nJ1ZGjScZEPyb6TuN9XXJboVDmCOg7esupImVzDyt7HUkoRLimyrPt1KmHZ+lE5g+g==}
+  '@nx/angular-rsbuild@20.6.1':
+    resolution: {integrity: sha512-SomsTtQEs5HXR/HBaDFCht9YrO2Y10rFtusJ4GDBvxN1rxS+J7Epmkupjh4kAoHxBQ/CaXZdngfPJyOooe3tBg==}
     peerDependencies:
       '@angular/common': '>=19.0.0 <20.0.0'
       '@angular/ssr': '>=19.0.0 <20.0.0'
       '@rsbuild/core': '>=1.0.5 <2.0.0'
 
-  '@nx/angular-rspack-compiler@20.6.0-beta.1':
-    resolution: {integrity: sha512-U9YFC93Qn7dPpdg2xJJCKv1Cr4cWh5sw5rZutjUqjdk3AalG8S7f62adDEXBrQ2tDeM1sK9aIJ4AF5/VE2vq/w==}
+  '@nx/angular-rspack-compiler@20.6.1':
+    resolution: {integrity: sha512-5SBnlqeFirFxT/T2cWnPstWhYvbeLvDKeyIxwtswhIuQufpvmUT6hgvwAiwCYKDYkhNJbTTaXfD87joTgZu1Qw==}
     peerDependencies:
       '@angular/build': '>=18.0.0 <20.0.0'
       '@angular/compiler-cli': '>=18.0.0 <20.0.0'
       '@rsbuild/core': '>=1.0.5 <2.0.0'
       '@swc/core': '>=1.5.0 <1.11.0'
 
-  '@nx/angular-rspack@20.6.0-beta.1':
-    resolution: {integrity: sha512-WiVmrP0JTeT7L+twbcu0ZPvXm4As0bH9p3Gs88/5V60rZXgHxCWpL8Sl9zGOzdML3xwNs47s8xMuPg3b2DJFGQ==}
+  '@nx/angular-rspack@20.6.1':
+    resolution: {integrity: sha512-jAPHtAKT+9+oDthOnnSDzM2CBpFhgHHpVNVvgvKeNc1GwDvTTzjso96arynxiGcW9kbJOBYsrZ7tR5GztThgMw==}
     peerDependencies:
       '@angular/common': '>=19.0.0 <20.0.0'
       '@angular/ssr': '>=19.0.0 <20.0.0'
@@ -9547,11 +9547,11 @@ snapshots:
       - bluebird
       - supports-color
 
-  '@nx/angular-rsbuild@20.6.0-beta.1(ousu5qolgnncvwglrhb6ckapp4)':
+  '@nx/angular-rsbuild@20.6.1(ousu5qolgnncvwglrhb6ckapp4)':
     dependencies:
       '@angular/common': 19.2.2(@angular/core@19.2.2(rxjs@7.8.1)(zone.js@0.15.0))(rxjs@7.8.1)
       '@angular/ssr': 19.2.3(hj35ci6ixth5fk2bst3vrnseqe)
-      '@nx/angular-rspack-compiler': 20.6.0-beta.1(6c4nkwlsxlkrgwdkafwdmatoyq)
+      '@nx/angular-rspack-compiler': 20.6.1(6c4nkwlsxlkrgwdkafwdmatoyq)
       '@rsbuild/core': 1.1.13
       '@rsbuild/plugin-less': 1.1.1(@rsbuild/core@1.1.13)
       '@rsbuild/plugin-sass': 1.2.2(@rsbuild/core@1.1.13)
@@ -9565,7 +9565,7 @@ snapshots:
       - '@swc/core'
       - supports-color
 
-  '@nx/angular-rspack-compiler@20.6.0-beta.1(6c4nkwlsxlkrgwdkafwdmatoyq)':
+  '@nx/angular-rspack-compiler@20.6.1(6c4nkwlsxlkrgwdkafwdmatoyq)':
     dependencies:
       '@angular/build': 19.2.3(@angular/compiler-cli@19.2.2(@angular/compiler@19.2.2(@angular/core@19.2.2(rxjs@7.8.1)(zone.js@0.15.0)))(typescript@5.7.3))(@angular/compiler@19.2.2(@angular/core@19.2.2(rxjs@7.8.1)(zone.js@0.15.0)))(@angular/platform-server@19.2.2(@angular/common@19.2.2(@angular/core@19.2.2(rxjs@7.8.1)(zone.js@0.15.0))(rxjs@7.8.1))(@angular/compiler@19.2.2(@angular/core@19.2.2(rxjs@7.8.1)(zone.js@0.15.0)))(@angular/core@19.2.2(rxjs@7.8.1)(zone.js@0.15.0))(@angular/platform-browser@19.2.2(@angular/animations@19.2.2(@angular/core@19.2.2(rxjs@7.8.1)(zone.js@0.15.0)))(@angular/common@19.2.2(@angular/core@19.2.2(rxjs@7.8.1)(zone.js@0.15.0))(rxjs@7.8.1))(@angular/core@19.2.2(rxjs@7.8.1)(zone.js@0.15.0)))(rxjs@7.8.1))(@angular/ssr@19.2.3(hj35ci6ixth5fk2bst3vrnseqe))(@types/node@22.10.5)(chokidar@4.0.3)(jiti@1.21.7)(less@4.1.3)(postcss@8.4.49)(sass-embedded@1.83.0)(stylus@0.64.0)(terser@5.39.0)(typescript@5.7.3)(yaml@2.7.0)
       '@angular/compiler-cli': 19.2.2(@angular/compiler@19.2.2(@angular/core@19.2.2(rxjs@7.8.1)(zone.js@0.15.0)))(typescript@5.7.3)
@@ -9576,11 +9576,11 @@ snapshots:
       tslib: 2.8.1
       typescript: 5.6.3
 
-  '@nx/angular-rspack@20.6.0-beta.1(qzmw24mupegnvocx7bxhhnp6ry)':
+  '@nx/angular-rspack@20.6.1(qzmw24mupegnvocx7bxhhnp6ry)':
     dependencies:
       '@angular/common': 19.2.2(@angular/core@19.2.2(rxjs@7.8.1)(zone.js@0.15.0))(rxjs@7.8.1)
       '@angular/ssr': 19.2.3(hj35ci6ixth5fk2bst3vrnseqe)
-      '@nx/angular-rspack-compiler': 20.6.0-beta.1(6c4nkwlsxlkrgwdkafwdmatoyq)
+      '@nx/angular-rspack-compiler': 20.6.1(6c4nkwlsxlkrgwdkafwdmatoyq)
       '@nx/devkit': 20.5.0(nx@20.5.0(@swc-node/register@1.9.2(@swc/core@1.5.29(@swc/helpers@0.5.15))(@swc/types@0.1.17)(typescript@5.7.3))(@swc/core@1.5.29(@swc/helpers@0.5.15)))
       '@rspack/core': 1.2.8(@swc/helpers@0.5.15)
       css-loader: 7.1.2(@rspack/core@1.2.8(@swc/helpers@0.5.15))(webpack@5.97.1(@swc/core@1.5.29(@swc/helpers@0.5.15)))

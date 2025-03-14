@@ -55,8 +55,8 @@
     "@angular/platform-server": "19.2.2",
     "@angular/router": "19.2.2",
     "@angular/ssr": "19.2.3",
-    "@nx/angular-rsbuild": "^20.6.0-beta.1",
-    "@nx/angular-rspack": "^20.6.0-beta.1",
+    "@nx/angular-rsbuild": "^20.6.1",
+    "@nx/angular-rspack": "^20.6.1",
     "express": "~4.18.2",
     "rxjs": "~7.8.0",
     "zone.js": "~0.15.0"
